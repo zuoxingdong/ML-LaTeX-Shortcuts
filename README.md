@@ -62,7 +62,6 @@ Collection of paper notes (PDF+Latex) in reinforcement learning, with compact su
 
 # Bayesian RL
 - Tamar et al., Bayesian Reinforcement Learning: A Survey
-- Depeweg et al., Learning and Policy Search in Stochastic Dynamical Systems with Bayesian Neural Networks
 
 # Neuroscience
 - Botvinick et al., The hippocampus as a predictive map, Nature
@@ -73,14 +72,10 @@ Collection of paper notes (PDF+Latex) in reinforcement learning, with compact su
 - Bottou, Stochastic Gradient Descent Tricks
 - Kingma et al., Auto-Encoding Variational Bayes
 
-
-# Bayesian deep learning
-- Gal et al., Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
-- Gal, PhD Thesis, Uncertainty in Deep Learning
+# Bayesian Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
 - Gal et al., What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision ?
-- Kingma et al., Variational Dropout and the Local Reparameterization Trick
 - Hernandez-Lobato et al., Black-Box alpha-Divergence Minimization
 - Blei et al., Variational Inference: A Review for Statisticians
 - Roeder et al., Sticking the Landing: Simple, Lower-Variance Gradient Estimators for Variational Inference
