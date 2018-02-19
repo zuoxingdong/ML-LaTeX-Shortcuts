@@ -1,6 +1,9 @@
 # Paper-Notes-RL
 Collection of paper notes (PDF+Latex) in reinforcement learning, with compact summary and detailed mathematical derivations.
 
+# Textbook
+- Sutton, Introduction to Reinforcement Learning, 2nd edition
+
 # Derivative-Free Optimization
 - Szita et al., Learning Teris using the Noisy Cross-Entropy Method
 
