@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Version: Feb 28, 2018 %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Basic setting
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{authblk}        % Authors and affiliations
+
+
+% Bibliography management (get item from Google Scholar)
+% Use: 
+%   1. Create a file called 'references.bib'
+%   2. Copy items from Google scholar
+%   3. \cite{tamar2016value}
+%   4. \printbibliography
+\usepackage[
+style=numeric,      % [numeric, alphabetic]
+sorting=nty         % nty: name, title, year
+]{biblatex}
+\addbibresource{references.bib}
+
+% Figure, tables
+\usepackage{graphicx}
+\graphicspath{ {img/} }     % search path of images
+\usepackage{subcaption}     % Multiple figures \subfigure
+\usepackage{booktabs}       % professional-quality tables
+
+
+% Mathematical
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{bbm}                    % 'mathbb' for digits
+\usepackage[ruled]{algorithm2e}     % Algorithms package
+
+
+% Define useful commands
+\newtheorem{definition}{Definition}[section]  % [section]: recount after each section
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}            % [theorem]: same counter as theorem
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\newtheorem{assumption}{Assumption}
+\newtheorem{question}{Question}
+\newtheorem{remark}{Remark}
+\newtheorem{case}{Case}
+
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+
+% Math bold font
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\X}{\mathbf{X}}
+
+
+% Blackboard bold: e.g. real/complex set
+\newcommand{\bN}{\mathbb{N}}  % Natural set
+\newcommand{\bR}{\mathbb{R}}  % real set
+\newcommand{\bC}{\mathbb{C}}  % complex set
+\newcommand{\bE}{\mathbb{E}}  % expectation operator
+
+
+% Calligraphic font: e.g. relations, power set, topology space
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cU}{\mathcal{U}}
+
+
+% Commonly used math notations
+\newcommand{\Var}{\mathrm{Var}}  % Variance
+\newcommand{\Cov}{\mathrm{Cov}}  % Covariance
+\newcommand{\T}{\top}            % better for transpose operation
+%% Note: add \left and \right to automatically adjust the size, e.g. fraction arguments
+% norm
+\newcommand{\norm}[1]{\left\lVert {#1} \right\rVert}
+% absolute value
+\newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
+% inner product
+\newcommand{\inner}[2]{\left\langle {#1}, {#2} \right\rangle}
+% expectation
+\newcommand{\Exp}[2]{\mathbb{E}_{{#2}} \left[  {#1} \right]}
+% conditional expectation
+\newcommand{\CondExp}[3]{\mathbb{E}_{{#3}} \left[  {#1} \middle| {#2} \right]}
+% KL divergence
+\newcommand{\KL}[2]{D_{\mathrm{KL}} \left( {#1} \| {#2} \right)}
+% max KL divergence
+\newcommand{\KLmax}[2]{D_{\mathrm{KL}}^{\max} \left( {#1} \| {#2} \right)}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Paper-specific shortcuts as follows %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
