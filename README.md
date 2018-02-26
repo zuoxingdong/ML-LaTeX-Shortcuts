@@ -63,7 +63,7 @@ Collection of paper notes (PDF+Latex) in reinforcement learning, with compact su
 - Moerland et al., Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning
 - Chiappa et al., Recurrent Environment Simulators
 
-# Curriculum Reinforcement Learning (or Lifelong/Continual)
+# Curriculum (Lifelong) Reinforcement Learning
 - Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem
 
 # Bayesian RL
