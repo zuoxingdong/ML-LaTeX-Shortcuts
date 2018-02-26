@@ -64,7 +64,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Chiappa et al., Recurrent Environment Simulators
 
 # Curriculum (Lifelong) Reinforcement Learning
-- Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem
+- [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](.PowerPlay)
 
 # Bayesian RL
 - Tamar et al., Bayesian Reinforcement Learning: A Survey
