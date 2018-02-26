@@ -1,5 +1,5 @@
 # Notes-RL
-Collection of paper notes (PDF+Latex) in reinforcement learning, with compact summary and detailed mathematical derivations.
+Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact summary and detailed mathematical derivations.
 
 # Textbook
 - Sutton, Introduction to Reinforcement Learning, 2nd edition
