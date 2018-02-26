@@ -1,4 +1,4 @@
-# Paper-Notes-RL
+# Notes-RL
 Collection of paper notes (PDF+Latex) in reinforcement learning, with compact summary and detailed mathematical derivations.
 
 # Textbook
@@ -62,6 +62,9 @@ Collection of paper notes (PDF+Latex) in reinforcement learning, with compact su
 - Metz et al., Discrete Sequential Prediction of Continuous Actions for Deep RL
 - Moerland et al., Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning
 - Chiappa et al., Recurrent Environment Simulators
+
+# Curriculum Reinforcement Learning (or Lifelong/Continual)
+- Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem
 
 # Bayesian RL
 - Tamar et al., Bayesian Reinforcement Learning: A Survey
