@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Xingdong Zuo  %
 %                       %
-% Version: Mar 07, 2018 %
+% Version: Mar 08, 2018 %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -39,7 +39,7 @@ sorting=nty         % nty: name, title, year
 
 % Mathematical
 \usepackage{amsmath, amssymb, amsthm, amsfonts}
-\usepackage{bbm}                    % 'mathbb' for digits
+\usepackage{bbm}                    % '\mathbbm' for digits
 \usepackage[ruled]{algorithm2e}     % Algorithms package
 
 
@@ -181,6 +181,8 @@ sorting=nty         % nty: name, title, year
 \newcommand{\bbY}{\mathbb{Y}}
 \newcommand{\bbZ}{\mathbb{Z}}
 
+\newcommand{\indicator}{\mathbbm{1}}
+
 % Calligraphic font: e.g. space, relations, power set
 \newcommand{\cca}{\mathcal{a}}
 \newcommand{\ccb}{\mathcal{b}}
@@ -251,6 +253,8 @@ sorting=nty         % nty: name, title, year
 \newcommand{\T}{\top}            % better for transpose operation
 
 %% Note: add \left, \right automatically adjust the size, e.g. when use \frac{}{}
+% Set
+\newcommand{\set}[1]{\left\{ {#1} \right\}}
 % Ceiling
 \newcommand{\ceil}[1]{\left\lceil {#1} \right\rceil}
 % Flooring
@@ -274,3 +278,4 @@ sorting=nty         % nty: name, title, year
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Paper-specific shortcuts as follows %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
