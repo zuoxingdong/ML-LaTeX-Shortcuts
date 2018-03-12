@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Xingdong Zuo  %
 %                       %
-% Version: Mar 08, 2018 %
+% Version: Mar 12, 2018 %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -243,7 +243,7 @@ sorting=nty         % nty: name, title, year
 % Mathematical notations  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \DeclareMathOperator{\Tr}{Tr}
-\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmin}{\arg\!\min}  % with star: under subscript
 \DeclareMathOperator*{\argmax}{\arg\!\max}
 
 \newcommand{\eps}{\epsilon}
@@ -251,6 +251,7 @@ sorting=nty         % nty: name, title, year
 \newcommand{\Cov}{\mathrm{Cov}}  % Covariance
 \newcommand{\DKL}{D_{\mathrm{KL}}}  % KL divergence
 \newcommand{\T}{\top}            % better for transpose operation
+\newcommand{\d}{\mathrm{d}}     % derivative
 
 %% Note: add \left, \right automatically adjust the size, e.g. when use \frac{}{}
 % Set
@@ -273,7 +274,13 @@ sorting=nty         % nty: name, title, year
 \newcommand{\KL}[2]{D_{\mathrm{KL}} \left( {#1} \| {#2} \right)}
 % max KL divergence
 \newcommand{\KLmax}[2]{D_{\mathrm{KL}}^{\max} \left( {#1} \| {#2} \right)}
-
+% Minimization, maximization, subject to
+\newcommand{\minimize}[2]{ \underset{ {#2} }{\text{minimize }} {#1} }
+\newcommand{\maximize}[2]{ \underset{ {#2} }{\text{maximize }} {#1} }
+\newcommand{\subto}[1]{ \text{subject to } {#1} }
+% Fraction of derivatives and partial derivatives
+\newcommand{\dfrac}[2]{\frac{ \mathrm{d}{#1} }{ \mathrm{d}{#2} }}
+\newcommand{\pfrac}[2]{\frac{ \partial{#1} }{ \partial{#2} }}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Paper-specific shortcuts as follows %
