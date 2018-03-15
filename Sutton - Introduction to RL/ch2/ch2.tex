@@ -1,0 +1,134 @@
+\subsection{A $K$-armed Bandit Problem}
+Stationary $K$-armed bandit: Given $K\in\bbN^{+}$ possible actions associated with a set of stationary reward distributions $\set{R_1, \dots, R_K}$. At each time step $t$, an action $A_t$ is selected and a reward $R_t$ is observed. 
+\begin{itemize}
+    \item Objective: maximize the expected total reward over $T$ time steps
+    \item Expected reward for action $a$: $Q^*(a) = \CondExp{R_t}{A_t = a}{}$
+    \item Estimated action value: $Q_t(a)\approx Q^*(a)$
+\end{itemize}
+
+\subsection{Action-value Methods}
+\begin{theorem}[Law of large numbers]
+    Let $\set{X_i}_{i=1}^{\infty}$ be an infinite sequence of i.i.d. random variables with $\Exp{X_i}{} = \mu, \forall i=1, 2, \dots$, then the sample average $\bar{X}=\avgsum{i}{1}{N} X_i$ converges to $\mu$ as $N\rightarrow\infty$.
+\end{theorem}
+
+\begin{itemize}
+    \item Estimate action value by sample average: 
+        \begin{equation}
+            Q_t(a) = \frac{\sum_{i=1}^{t-1}R_i\indicator(A_i = a)}{\sum_{i=1}^{t-1}\indicator(A_i = a)}
+        \end{equation}
+    \item By law of large numbers, $Q_t(a)$ converges to $Q^*(a)$ as $a$ being selected infinitely many times. 
+    \item Greedy action (exploitation): $A_t = \argmax_a Q_t(a)$
+    \item $\eps$-greedy (exploration): Sample $z\sim \ccU(0, 1)$ 
+        \begin{equation}
+            A_t = \begin{cases}
+                        \argmax_a Q_t(a) & \text{if } z < 1 - \eps \\
+                        \ccU\set{1, \dots, K} & \text{otherwise}
+                  \end{cases}
+        \end{equation}
+\end{itemize}
+
+\subsection{The 10-armed Testbed}
+\begin{itemize}
+    \item High uncertainty (large variance): more exploration
+    \item No uncertainty (zero variance): greedy strategy is optimal
+\end{itemize}
+
+\subsection{Incremental Implementation}
+We can estimate $Q_t(a)$ iteratively. Let $R_i$ be the observed reward for $i$-th selection of action $a$, we have
+\begin{align*}
+    Q_{n+1} &= \avgsum{i}{1}{n} R_i \\
+            &= \frac{1}{n}\paren{R_n + (n-1)\frac{1}{n-1}\sum_{i=1}^{n-1}R_i} \\
+            &= \frac{1}{n}\paren{R_n + nQ_n - Q_n} \\
+            &= Q_n + \frac{1}{n}\paren{R_n - Q_n}.
+\end{align*}
+General form of such update rule: 
+\begin{equation*}
+    \text{NewEstimate} = \text{OldEstimate} + \text{StepSize}(\text{Target} - \text{OldEstimate}).
+\end{equation*}
+
+\subsection{Tracking a Nonstationary Problem}
+Nonstationary problem: give more weight to recent rewards, e.g. constant step size $\alpha\in(0, 1]$, we have
+\begin{align*}
+    Q_{n+1} &= Q_n + \alpha\paren{R_n - Q_n} \\
+            &= \alpha R_n + (1-\alpha)Q_n \\
+            &= \alpha R_n + (1-\alpha)\paren{\alpha R_{n-1} + (1-\alpha)Q_{n-1}} \\
+            &= \alpha R_n + \alpha(1-\alpha)R_{n-1}+\dots +\alpha(1-\alpha)^{n-1}R_1 + (1-\alpha)^n Q_1 \\
+            &= (1-\alpha)^n Q_1 + \sum_{i=1}^{n}\alpha(1-\alpha)^{n-i} R_i
+\end{align*}
+
+By applying geometric series, one can show 
+\begin{equation}
+    (1-\alpha)^n + \sum_{i=1}^{n}\alpha(1-\alpha)^{n-i} = 1. 
+\end{equation}
+Thus, the update rule is a weighted average. 
+
+Adaptive step size $\alpha_n(a)$: the convergence condition is Monro-Robbins sequence, i.e.
+\begin{equation}
+    \sum_{n=1}^{\infty}\alpha_n(a) = \infty \quad \text{and} \quad \sum_{n=1}^{\infty}\alpha_n^2(a) < \infty
+\end{equation}
+
+\subsection{Optimistic Initial Values}
+Setting initial estimate $Q_1(a) > 0, \forall a$ encourages exploration, i.e. initially any selected action reduces its estimate, resulting in other actions to be considered. The exploration decreases over time. 
+
+\subsection{Upper Confidence Bound Action Selection}
+\begin{itemize}
+    \item Problem of $\eps$-greedy: treats non-greedy actions equally despite of estimation uncertainty. 
+    \item UCB action selection:
+        \begin{equation}
+            A_t = \argmax_{a}\paren{Q_t(a) + c\sqrt{\frac{\ln t}{N_t(a)}}}
+        \end{equation}
+        where $N_t(a)=\sum_{i=1}^{t-1}\indicator(A_i = a)$ and the number $c > 0$ controls the degree of exploration.
+        \begin{itemize}
+            \item Square root indicates uncertainty measure (variance)
+            \item Each time for selected action: uncertainty decreases
+            \item Each time for unselected action: uncertainty increases
+            \item Use of logarithm: increasing slower over time, but unbounded
+        \end{itemize}
+\end{itemize}
+
+\subsection{Gradient Bandit Algorithms}
+\begin{itemize}
+    \item Action preference: $H_t(a)$
+    \item Softmax policy: 
+        \begin{equation}
+            \pi_t(a) = \Prob(A_t = a) = \frac{e^{H_t(a)}}{\sum_{b = 1}^{K} e^{H_t(b)}}
+        \end{equation}
+    \item Objective: 
+        \begin{equation}
+            \maximize{\Exp{R_t}{}}{} = \sum_x \pi_t(x) Q^*(x)
+        \end{equation}
+    \item Update rule: 
+        \begin{equation}
+            H_{t+1}(a) = H_t(a) + \alpha\pfrac{\Exp{R_t}{}}{H_t(a)}
+        \end{equation}
+        for some $\alpha > 0$.
+\end{itemize}
+
+\begin{lemma} \label{lemma:1}
+    $\pfrac{\pi_t(x)}{H_t(a)} = \pi_t(x)\paren{\indicator(a = x) - \pi_t(a)}$
+\end{lemma}
+\begin{proof}
+    \begin{align*}
+        \pfrac{\pi_t(x)}{H_t(a)} 
+            &= \frac{\pfrac{e^{H_t(x)}}{H_t(a)} \sum_{y = 1}^{K} e^{H_t(y)} - e^{H_t(x)}\pfrac{\sum_{y = 1}^{K} e^{H_t(y)}}{H_t(a)}}{\paren{\sum_{y = 1}^{K} e^{H_t(y)}}^2} \\
+            &= \frac{\indicator(a = x) e^{H_t(x)}}{\sum_{y = 1}^{K} e^{H_t(y)}} - \frac{e^{H_t(x)}e^{H_t(a)}}{\paren{\sum_{y = 1}^{K} e^{H_t(y)}}^2} \\
+            &= \pi_t(x)\paren{\indicator(a=x) - \pi_t(a)}.
+    \end{align*}
+\end{proof}
+
+By applying \Lemmaref{lemma:1}, we can obtain
+\begin{align*}
+    \pfrac{\Exp{R_t}{}}{H_t(a)} 
+        &= \sum_x Q^*(x) \pfrac{\pi_t(x)}{H_t(a)} \\
+        &= \sum_x Q^*(x) \pfrac{\pi_t(x)}{H_t(a)} - B_t\pfrac{}{H_t(a)}\sum_x \pi_t(x) \\
+        &= \sum_x \pi_t(x) \frac{1}{\pi_t(x)}\paren{Q^*(x) - B_t} \pfrac{\pi_t(x)}{H_t(a)} \\
+        &= \Exp{\paren{\CondExp{R_t}{A_t}{} - B_t} \pfrac{\pi_t(A_t)}{H_t(a)}\frac{1}{\pi_t(A_t)}}{A_t\sim \pi_t(\cdot)} \\
+        &= \Exp{\paren{R_t - B_t} \pfrac{\pi_t(A_t)}{H_t(a)}\frac{1}{\pi_t(A_t)}}{A_t\sim \pi_t(\cdot)} \\
+        &= \Exp{\paren{R_t - B_t} \paren{\indicator(A_t = a) - \pi_t(a)}}{A_t\sim \pi_t(\cdot)}.
+\end{align*}
+
+We choose the baseline as averaged rewards prior to time $t$, i.e. $B_t = \bar{R_t}$, then we obtain the Monte-Carlo update rule
+\begin{equation}
+    H_{t+1}(a) = H_t(a) + \alpha \paren{R_t - \bar{R_t}} \paren{\indicator(A_t = a) - \pi_t(a)}.
+\end{equation}
+for all $a\in\set{1, \dots, K}$.
