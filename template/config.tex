@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Xingdong Zuo  %
 %                       %
-% Version: April 17, 2018 %
+% Version: April 18, 2018 %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -39,7 +39,9 @@ sorting=nty         % nty: name, title, year
 
 % Mathematical
 \usepackage{amsmath, amssymb, amsthm, amsfonts}
+\usepackage{mathtools}  % more math
 \usepackage{bbm}                    % '\mathbbm' for digits
+\usepackage{bm}                     % bold symbol for greek letters
 \usepackage[ruled]{algorithm2e}     % Algorithms package
 
 
@@ -65,6 +67,11 @@ sorting=nty         % nty: name, title, year
 \newtheorem{lemma}[theorem]{Lemma}            % [theorem]: same counter as theorem
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{principle}[theorem]{Principle}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
 % \begin{proof}\end{proof} already included in package amsthm
 
 \newtheorem{assumption}{Assumption}
@@ -76,7 +83,10 @@ sorting=nty         % nty: name, title, year
 %%%%%%%%%
 % Fonts %
 %%%%%%%%%
-% Math bold font: e.g. variable, vector/matrix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math bold font: e.g. variable, vector/matrix %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\bfa}{\mathbf{a}}
 \newcommand{\bfb}{\mathbf{b}}
 \newcommand{\bfc}{\mathbf{c}}
@@ -131,7 +141,9 @@ sorting=nty         % nty: name, title, year
 \newcommand{\bfY}{\mathbf{Y}}
 \newcommand{\bfZ}{\mathbf{Z}}
 
-% Blackboard bold: e.g. real/complex set, indicator function
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Blackboard bold: e.g. real/complex set, indicator function %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\bba}{\mathbb{a}}
 \newcommand{\bbb}{\mathbb{b}}
 \newcommand{\bbc}{\mathbb{c}}
@@ -186,7 +198,9 @@ sorting=nty         % nty: name, title, year
 \newcommand{\bbY}{\mathbb{Y}}
 \newcommand{\bbZ}{\mathbb{Z}}
 
-% Calligraphic font: e.g. space, relations, power set
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Calligraphic font: e.g. space, relations, power set %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\cca}{\mathcal{a}}
 \newcommand{\ccb}{\mathcal{b}}
 \newcommand{\ccc}{\mathcal{c}}
@@ -241,16 +255,58 @@ sorting=nty         % nty: name, title, year
 \newcommand{\ccY}{\mathcal{Y}}
 \newcommand{\ccZ}{\mathcal{Z}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bold font for greek letters %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\bfalpha}{\bm{\alpha}}
+\newcommand{\bfbeta}{\bm{\beta}}
+\newcommand{\bfgamma}{\bm{\gamma}}
+\newcommand{\bfGamma}{\bm{\Gamma}}
+\newcommand{\bfdelta}{\bm{\delta}}
+\newcommand{\bfDelta}{\bm{\Delta}}
+\newcommand{\bfeps}{\bm{\varepsilon}}
+\newcommand{\bfzeta}{\bm{\zeta}}
+\newcommand{\bfeta}{\bm{\eta}}
+\newcommand{\bftheta}{\bm{\theta}}
+\newcommand{\bfTheta}{\bm{\Theta}}
+\newcommand{\bfiota}{\bm{\iota}}
+\newcommand{\bfkappa}{\bm{\kappa}}
+\newcommand{\bflambda}{\bm{\lambda}}
+\newcommand{\bfLambda}{\bm{\Lambda}}
+\newcommand{\bfmu}{\bm{\mu}}
+\newcommand{\bfnu}{\bm{\nu}}
+\newcommand{\bfxi}{\bm{\xi}}
+\newcommand{\bfXi}{\bm{\Xi}}
+\newcommand{\bfpi}{\bm{\pi}}
+\newcommand{\bfPi}{\bm{\Pi}}
+\newcommand{\bfrho}{\bm{\rho}}
+\newcommand{\bfsigma}{\bm{\sigma}}
+\newcommand{\bfSigma}{\bm{\Sigma}}
+\newcommand{\bftau}{\bm{\tau}}
+\newcommand{\bfupsilon}{\bm{\upsilon}}
+\newcommand{\bfUpsilon}{\bm{\Upsilon}}
+\newcommand{\bffy}{\bm{\varphi}}
+\newcommand{\bfFy}{\bm{\Phi}}
+\newcommand{\bfchi}{\bm{\chi}}
+\newcommand{\bfpsi}{\bm{\psi}}
+\newcommand{\bfPsi}{\bm{\Psi}}
+\newcommand{\bfomega}{\bm{\omega}}
+\newcommand{\bfOmega}{\bm{\Omega}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Mathematical notations  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareMathOperator{\RE}{Re}
+\DeclareMathOperator{\IM}{Im}
 \DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator*{\argmin}{\arg\!\min}  % with star: under subscript
 \DeclareMathOperator*{\argmax}{\arg\!\max}
 
 \newcommand{\Prob}{\mathrm{P}}      % Probability
-\newcommand{\eps}{\epsilon}      % Epsilon
+\newcommand{\eps}{\varepsilon}      % Epsilon
+\newcommand{\fy}{\varphi}           % Phi
 \newcommand{\Var}{\mathrm{Var}}  % Variance
 \newcommand{\Cov}{\mathrm{Cov}}  % Covariance
 \newcommand{\DKL}{D_{\mathrm{KL}}}  % KL divergence
