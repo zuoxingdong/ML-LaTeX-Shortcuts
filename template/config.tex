@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Xingdong Zuo  %
 %                       %
-% Version: April 18, 2018 %
+% Version: April 24, 2018 %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -327,6 +327,11 @@ sorting=nty         % nty: name, title, year
 \newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
 % inner product
 \newcommand{\inner}[2]{\left\langle {#1}, {#2} \right\rangle}
+% outer product
+\newcommand{\outerp}[1]{ {#1} {#1}^T }  % \outer already pre-defined
+\newcommand{\outers}[1]{ \left( {#1} \right) \left( {#1} \right)^T }
+% trace
+\newcommand{\tr}[1]{\Tr \left( {#1} \right)}
 % expectation
 \newcommand{\Exp}[2]{\mathbb{E}_{{#2}} \left[  {#1} \right]}
 % conditional expectation: auto-size of verticle line by \middle
@@ -350,6 +355,9 @@ sorting=nty         % nty: name, title, year
 \newcommand{\sbrak}[1]{ \left[ {#1} \right] }
 % Indicator function
 \newcommand{\indicator}[1]{\mathbbm{1} \left( {#1} \right) }
+% Quadratic form
+\newcommand{\quaform}[2]{ {#1}^T {#2} {#1}}
+\newcommand{\quaforms}[2]{\left( {#1} \right)^T {#2} \left( {#1} \right)}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Paper-specific shortcuts as follows %
