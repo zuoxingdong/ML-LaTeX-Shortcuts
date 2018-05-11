@@ -39,18 +39,9 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Bellemare et al., A Distributional Perspective on Reinforcement Learning
 - Tamar et al., VIN
 
-
-# Exploration
-- Ostand et al. Deep Exploration via Bootstrapped DQN
-- Osband et al. (More) efficient reinforcement learning via posterior sampling
-- Houthooft et al., VIME
-- Ostrovski et al., Count-Based Exploration with Neural Density Models
-- Tang et al., #Exploration: A Study of Count-based Exploration for Deep Reinforcement Learning
-- Fortunato et al., Noisy Networks for Exploration
-- Plappert et al., Parameter Space Noise for Exploration
-
 # Model-based RL & Planning
 - Henaff et al., Model-Based Planning in Discrete Action Spaces
+-- Paper, Notes
 - Silver et al., The Predictron: End-To-End Learning and Planning
 - Pascanu et al., Learning model-based planning from scratch
 - Weber et al., Imagination-Augmented Agents for Deep Reinforcement Learning
@@ -62,6 +53,15 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Metz et al., Discrete Sequential Prediction of Continuous Actions for Deep RL
 - Moerland et al., Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning
 - Chiappa et al., Recurrent Environment Simulators
+
+# Exploration
+- Ostand et al. Deep Exploration via Bootstrapped DQN
+- Osband et al. (More) efficient reinforcement learning via posterior sampling
+- Houthooft et al., VIME
+- Ostrovski et al., Count-Based Exploration with Neural Density Models
+- Tang et al., #Exploration: A Study of Count-based Exploration for Deep Reinforcement Learning
+- Fortunato et al., Noisy Networks for Exploration
+- Plappert et al., Parameter Space Noise for Exploration
 
 # Curriculum (Lifelong) Reinforcement Learning
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
