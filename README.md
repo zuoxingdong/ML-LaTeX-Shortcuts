@@ -41,7 +41,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Model-based RL & Planning
 - Henaff et al., Model-Based Planning in Discrete Action Spaces
--- Paper, Notes
+  - Paper, Notes
 - Silver et al., The Predictron: End-To-End Learning and Planning
 - Pascanu et al., Learning model-based planning from scratch
 - Weber et al., Imagination-Augmented Agents for Deep Reinforcement Learning
