@@ -68,6 +68,8 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Abbeel et al., Model-ensemble Trust-Region Policy Optimization
 - Levine et al., Model-based Value Expansion for Efficient Model-Free Reinforcement Learning
 - Levine et al., Recall Traces: Backtracking Models for Efficient Reinforcement Learning
+- Levine et al., Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning
+- Levine et al., Temporal Difference Models: Model-Free Deep RL for Model-Based Control
 
 # Exploration
 - Ostand et al. Deep Exploration via Bootstrapped DQN
