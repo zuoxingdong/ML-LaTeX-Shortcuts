@@ -39,7 +39,6 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Model-based RL & Planning
 - Doll et al., The ubiquity of model-based reinforcement learning
 - Tamar et al., Value Iteration Networks
-- Klein et al., Learning to Plan Without a Planner
 - Karkus et al., QMDP-Net: Deep Learning for Planning under Partial Observability
 - Tamar et al., Learning Generalized Reactive Policies using Deep Neural Networks
 - Singh et al., Value Prediction Networks
