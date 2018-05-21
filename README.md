@@ -71,7 +71,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine et al., Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning
 - Levine et al., Temporal Difference Models: Model-Free Deep RL for Model-Based Control
 
-# Exploration
+# Exploration in RL
 - Ostand et al. Deep Exploration via Bootstrapped DQN
 - Osband et al. (More) efficient reinforcement learning via posterior sampling
 - Houthooft et al., VIME
@@ -81,7 +81,9 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Plappert et al., Parameter Space Noise for Exploration
 - Wierstra et al., Learning and Querying Fast Generative Models for Reinforcement Learning
 
-# Curriculum (Lifelong) Reinforcement Learning
+# Meta-RL
+
+# Curriculum (Lifelong) RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 
 # Bayesian RL
