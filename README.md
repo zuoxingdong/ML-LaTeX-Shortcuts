@@ -73,12 +73,17 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Exploration in RL
 - Ostand et al. Deep Exploration via Bootstrapped DQN
 - Osband et al. (More) efficient reinforcement learning via posterior sampling
-- Houthooft et al., VIME
+- Osband et al., Why is Posterior Sampling Better than Optimism for Reinforcement Learning?
+- Abbeel et al., VIME: Variational Information Maximizing Exploration
 - Ostrovski et al., Count-Based Exploration with Neural Density Models
 - Tang et al., #Exploration: A Study of Count-based Exploration for Deep Reinforcement Learning
 - Fortunato et al., Noisy Networks for Exploration
 - Plappert et al., Parameter Space Noise for Exploration
 - Wierstra et al., Learning and Querying Fast Generative Models for Reinforcement Learning
+- Bellemare et al., Unifying Count-Based Exploration and Intrinsic Motivation
+- Levine et al., EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
+- Rezende et al., Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning
+- Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
 
 # Meta-RL
 
