@@ -90,9 +90,6 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Curriculum (Lifelong) RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 
-# Bayesian RL
-- Tamar et al., Bayesian Reinforcement Learning: A Survey
-
 # Neuroscience
 - Botvinick et al., The hippocampus as a predictive map, Nature
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
