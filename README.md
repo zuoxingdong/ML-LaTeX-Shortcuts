@@ -103,6 +103,9 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Bottou, Stochastic Gradient Descent Tricks
 - Kingma et al., Auto-Encoding Variational Bayes
 
+# Optimization
+- Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
+
 # Bayesian Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
