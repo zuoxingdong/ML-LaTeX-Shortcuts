@@ -92,6 +92,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Meta-RL
 
 # Graph Networks in RL
+- Rezende et al., Interaction Networks for Learning about Objects, Relations and Physics
 - Wang et al., NerveNet: Learning Structured Policy with Graph Neural Networks
 - Riedmiller et al., Graph Networks as Learnable Physics Engines for Inference and Control
 
