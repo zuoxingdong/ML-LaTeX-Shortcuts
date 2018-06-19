@@ -91,6 +91,10 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Meta-RL
 
+# Graph Networks in RL
+- Wang et al., NerveNet: Learning Structured Policy with Graph Neural Networks
+- Riedmiller et al., Graph Networks as Learnable Physics Engines for Inference and Control
+
 # Curriculum (Lifelong) RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 
