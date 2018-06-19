@@ -119,3 +119,6 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Blei et al., Variational Inference: A Review for Statisticians
 - Roeder et al., Sticking the Landing: Simple, Lower-Variance Gradient Estimators for Variational Inference
 - Lakshminarayanan et al., Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
+
+# Useful maths
+- Schon et al., Manipulating the Multivariate Gaussian Density
