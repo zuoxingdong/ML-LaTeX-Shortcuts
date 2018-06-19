@@ -110,6 +110,10 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Optimization
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
+- Barber et al., Variational Optimization
+- Grathwohl et al., Backpropagation through the Void: Optimizing control variates for black-box gradient estimation
+- Grosse et al., Noisy Natural Gradient as Variational Inference
+- Gal et al., Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam
 
 # Bayesian Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
