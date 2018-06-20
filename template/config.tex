@@ -144,33 +144,6 @@ sorting=nty         % nty: name, title, year
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Blackboard bold: e.g. real/complex set, indicator function %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\bba}{\mathbb{a}}
-\newcommand{\bbb}{\mathbb{b}}
-\newcommand{\bbc}{\mathbb{c}}
-\newcommand{\bbd}{\mathbb{d}}
-\newcommand{\bbe}{\mathbb{e}}
-\newcommand{\bbf}{\mathbb{f}}
-\newcommand{\bbg}{\mathbb{g}}
-\newcommand{\bbh}{\mathbb{h}}
-\newcommand{\bbi}{\mathbb{i}}
-\newcommand{\bbj}{\mathbb{j}}
-\newcommand{\bbk}{\mathbb{k}}
-\newcommand{\bbl}{\mathbb{l}}
-\newcommand{\bbm}{\mathbb{m}}
-\newcommand{\bbn}{\mathbb{n}}
-\newcommand{\bbo}{\mathbb{o}}
-\newcommand{\bbp}{\mathbb{p}}
-\newcommand{\bbq}{\mathbb{q}}
-\newcommand{\bbr}{\mathbb{r}}
-\newcommand{\bbs}{\mathbb{s}}
-\newcommand{\bbt}{\mathbb{t}}
-\newcommand{\bbu}{\mathbb{u}}
-\newcommand{\bbv}{\mathbb{v}}
-\newcommand{\bbw}{\mathbb{w}}
-\newcommand{\bbx}{\mathbb{x}}
-\newcommand{\bby}{\mathbb{y}}
-\newcommand{\bbz}{\mathbb{z}}
-
 \newcommand{\bbA}{\mathbb{A}}
 \newcommand{\bbB}{\mathbb{B}}
 \newcommand{\bbC}{\mathbb{C}}
@@ -201,33 +174,6 @@ sorting=nty         % nty: name, title, year
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Calligraphic font: e.g. space, relations, power set %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\cca}{\mathcal{a}}
-\newcommand{\ccb}{\mathcal{b}}
-\newcommand{\ccc}{\mathcal{c}}
-\newcommand{\ccd}{\mathcal{d}}
-\newcommand{\cce}{\mathcal{e}}
-\newcommand{\ccf}{\mathcal{f}}
-\newcommand{\ccg}{\mathcal{g}}
-\newcommand{\cch}{\mathcal{h}}
-\newcommand{\cci}{\mathcal{i}}
-\newcommand{\ccj}{\mathcal{j}}
-\newcommand{\cck}{\mathcal{k}}
-\newcommand{\ccl}{\mathcal{l}}
-\newcommand{\ccm}{\mathcal{m}}
-\newcommand{\ccn}{\mathcal{n}}
-\newcommand{\cco}{\mathcal{o}}
-\newcommand{\ccp}{\mathcal{p}}
-\newcommand{\ccq}{\mathcal{q}}
-\newcommand{\ccr}{\mathcal{r}}
-\newcommand{\ccs}{\mathcal{s}}
-\newcommand{\cct}{\mathcal{t}}
-\newcommand{\ccu}{\mathcal{u}}
-\newcommand{\ccv}{\mathcal{v}}
-\newcommand{\ccw}{\mathcal{w}}
-\newcommand{\ccx}{\mathcal{x}}
-\newcommand{\ccy}{\mathcal{y}}
-\newcommand{\ccz}{\mathcal{z}}
-
 \newcommand{\ccA}{\mathcal{A}}
 \newcommand{\ccB}{\mathcal{B}}
 \newcommand{\ccC}{\mathcal{C}}
@@ -293,6 +239,13 @@ sorting=nty         % nty: name, title, year
 \newcommand{\bfomega}{\bm{\omega}}
 \newcommand{\bfOmega}{\bm{\Omega}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Shortcut for some greek letters %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\eps}{\varepsilon}      % Epsilon
+\newcommand{\fy}{\varphi}           % phi
+\newcommand{\Fy}{\Phi}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Mathematical notations  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -304,13 +257,10 @@ sorting=nty         % nty: name, title, year
 \DeclareMathOperator*{\argmin}{\arg\!\min}  % with star: under subscript
 \DeclareMathOperator*{\argmax}{\arg\!\max}
 
-\newcommand{\Prob}{\mathrm{P}}      % Probability
-\newcommand{\eps}{\varepsilon}      % Epsilon
-\newcommand{\fy}{\varphi}           % Phi
+\newcommand{\p}{\mathrm{P}}      % Probability
 \newcommand{\Var}{\mathrm{Var}}  % Variance
 \newcommand{\Cov}{\mathrm{Cov}}  % Covariance
 \newcommand{\DKL}{D_{\mathrm{KL}}}  % KL divergence
-\newcommand{\T}{\top}            % better for transpose operation
 \newcommand{\dd}{\mathop{}\!\mathrm{d}}     % derivative
 \newcommand{\pdd}{\partial}      % Partial derivative
 
@@ -325,11 +275,17 @@ sorting=nty         % nty: name, title, year
 \newcommand{\norm}[1]{\left\lVert {#1} \right\rVert}
 % absolute value
 \newcommand{\abs}[1]{\left\lvert {#1} \right\rvert}
+% Auto-scale parentheses: useful in equations
+\newcommand{\paren}[1]{ \left( {#1} \right) }
+% Auto-scale square brackets: useful in equations
+\newcommand{\sbrak}[1]{ \left[ {#1} \right] }
+% dot product
+\newcommand{\dotp}[2]{ {#1} \cdot {#2} }
 % inner product
 \newcommand{\inner}[2]{\left\langle {#1}, {#2} \right\rangle}
 % outer product
 \newcommand{\outerp}[1]{ {#1} {#1}^T }  % \outer already pre-defined
-\newcommand{\outers}[1]{ \left( {#1} \right) \left( {#1} \right)^T }
+\newcommand{\outerpp}[1]{ \left( {#1} \right) \left( {#1} \right)^T }
 % trace
 \newcommand{\tr}[1]{\Tr \left( {#1} \right)}
 % expectation
@@ -346,13 +302,11 @@ sorting=nty         % nty: name, title, year
 \newcommand{\subto}[1]{ \text{subject to } {#1} }
 % Fraction of derivatives and partial derivatives
 \newcommand{\ddfrac}[2]{\frac{ \mathrm{d}{#1} }{ \mathrm{d}{#2} }}
+\newcommand{\ddfracc}[1]{\frac{ \mathrm{d} }{ \mathrm{d}{#1} }}
 \newcommand{\pfrac}[2]{\frac{ \partial{#1} }{ \partial{#2} }}
+\newcommand{\pfracc}[1]{\frac{\partial}{ \partial{#1} }}
 % Average of summation
 \newcommand{\avgsum}[3]{\frac{1}{ {#3} } \sum_{ {#1}={#2} }^{ {#3} }}
-% Auto-scale parentheses: useful in equations
-\newcommand{\paren}[1]{ \left( {#1} \right) }
-% Auto-scale square brackets: useful in equations
-\newcommand{\sbrak}[1]{ \left[ {#1} \right] }
 % Indicator function
 \newcommand{\indicator}[1]{\mathbbm{1} \left( {#1} \right) }
 % Quadratic form
