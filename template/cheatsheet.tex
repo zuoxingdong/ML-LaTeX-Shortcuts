@@ -1,0 +1,181 @@
+% Overleaf template
+\documentclass[10pt,landscape]{article}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{multicol,multirow}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+	}
+\pagestyle{empty}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+\input{config.tex}
+% -----------------------------------------------------------------------
+
+\title{Cheat sheet}
+
+\begin{document}
+
+\raggedright
+\footnotesize
+
+\begin{center}
+     \Large{\textbf{Cheat sheet: config.tex, Ver: June 20, 2018}} \\
+\end{center}
+
+\begin{multicols}{3}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References}
+\begin{tabular}{llll}
+    \emph{command} & \emph{output} & \emph{command} & \emph{output} \\
+    \verb!\Figref{}! & \Figref{} & \verb!\Secref{}! & \Secref{} \\
+    \verb!\Eqref{}! & \Eqref{} & \verb!\Algoref{}! & \Algoref{} \\
+    \verb!\Defref{}! & \Defref{} & \verb!\Thmref{}! & \Thmref{} \\
+    \verb!\Lemref{}! & \Lemref{} & \verb!\Cororef{}! & \Cororef{} \\
+    \verb!\Propref{}! & \Propref{} & \verb!! &  \\
+\end{tabular}
+
+\section{Fonts}
+\begin{tabular}{llll}
+    \emph{command} & \emph{output} & \emph{command} & \emph{output} \\
+    \verb!\bfa! & $\bfa$ & \verb!\bfz! & $\bfz$ \\
+    \verb!\bfA! & $\bfA$ & \verb!\bfZ! & $\bfZ$ \\
+    \verb!\bbA! & $\bbA$ & \verb!\bbZ! & $\bbZ$ \\
+    \verb!\ccA! & $\ccA$ & \verb!\ccZ! & $\ccZ$ \\
+    \verb!! & $$ & \verb!! & $$ \\
+\end{tabular}
+
+\section{Greek letter}
+\begin{tabular}{llll}
+    \emph{command} & \emph{output} & \emph{command} & \emph{output} \\
+    \verb!\alpha! & $\alpha$ & \verb!\bfalpha! & $\bfalpha$ \\
+    \verb!\beta! & $\beta$ & \verb!\bfbeta! & $\bfbeta$ \\
+    \verb!\gamma! & $\gamma$ & \verb!\bfgamma! & $\bfgamma$ \\
+    \verb!\Gamma! & $\Gamma$ & \verb!\bfGamma! & $\bfGamma$ \\
+    \verb!\delta! & $\delta$ & \verb!\bfdelta! & $\bfdelta$ \\
+    \verb!\Delta! & $\Delta$ & \verb!\bfDelta! & $\bfDelta$ \\
+    \verb!\eps! & $\eps$ & \verb!\bfeps! & $\bfeps$ \\
+    \verb!\zeta! & $\zeta$ & \verb!\bfzeta! & $\bfzeta$ \\
+    \verb!\eta! & $\eta$ & \verb!\bfeta! & $\bfeta$ \\
+    \verb!\theta! & $\theta$ & \verb!\bftheta! & $\bftheta$ \\
+    \verb!\Theta! & $\Theta$ & \verb!\bfTheta! & $\bfTheta$ \\
+    \verb!\iota! & $\iota$ & \verb!\bfiota! & $\bfiota$ \\
+    \verb!\kappa! & $\kappa$ & \verb!\bfkappa! & $\bfkappa$ \\
+    \verb!\lambda! & $\lambda$ & \verb!\bflambda! & $\bflambda$ \\
+    \verb!\Lambda! & $\Lambda$ & \verb!\bfLambda! & $\bfLambda$ \\
+    \verb!\mu! & $\mu$ & \verb!\bfmu! & $\bfmu$ \\
+    \verb!\nu! & $\nu$ & \verb!\bfnu! & $\bfnu$ \\
+    \verb!\xi! & $\xi$ & \verb!\bfxi! & $\bfxi$ \\
+    \verb!\Xi! & $\Xi$ & \verb!\bfXi! & $\bfXi$ \\
+    \verb!\pi! & $\pi$ & \verb!\bfpi! & $\bfpi$ \\
+    \verb!\Pi! & $\Pi$ & \verb!\bfPi! & $\bfPi$ \\
+    \verb!\rho! & $\rho$ & \verb!\bfrho! & $\bfrho$ \\
+    \verb!\sigma! & $\sigma$ & \verb!\bfsigma! & $\bfsigma$ \\
+    \verb!\Sigma! & $\Sigma$ & \verb!\bfSigma! & $\bfSigma$ \\
+    \verb!\tau! & $\tau$ & \verb!\bftau! & $\bftau$ \\
+    \verb!\upsilon! & $\upsilon$ & \verb!\bfupsilon! & $\bfupsilon$ \\
+    \verb!\Upsilon! & $\Upsilon$ & \verb!\bfUpsilon! & $\bfUpsilon$ \\
+    \verb!\fy! & $\fy$ & \verb!\bffy! & $\bffy$ \\
+    \verb!\Fy! & $\Fy$ & \verb!\bfFy! & $\bfFy$ \\
+    \verb!\chi! & $\chi$ & \verb!\bfchi! & $\bfchi$ \\
+    \verb!\psi! & $\psi$ & \verb!\bfpsi! & $\bfpsi$ \\
+    \verb!\Psi! & $\Psi$ & \verb!\bfPsi! & $\bfPsi$ \\
+    \verb!\omega! & $\omega$ & \verb!\bfomega! & $\bfomega$ \\
+    \verb!\Omega! & $\Omega$ & \verb!\bfOmega! & $\bfOmega$ \\
+    
+    % \verb!! & $$ & \verb!! & $$ \\
+\end{tabular}
+
+
+\section{Mathematical notations}
+\subsection{Basic}
+\begin{tabular}{llll}
+    \emph{command} & \emph{output} & \emph{command} & \emph{output} \\
+    \verb!\RE! & $\RE$ & \verb!\IM! & $\IM$ \\
+    \verb!\Tr! & $\Tr$ & \verb!\GL! & $\GL$ \\
+    \verb!\rank! & $\rank$ & \verb!\argmin! & $\argmin$ \\
+    \verb!\argmax! & $\argmax$ & \verb!\p(x)! & $\p(x)$ \\
+    \verb!\Var! & $\Var$ & \verb!\Cov! & $\Cov$ \\
+    \verb!\DKL! & $\DKL$ & \verb!\dd x! & $\dd x$ \\
+    \verb!\pdd! & $\pdd$ & \verb!! & $$ \\
+    
+\end{tabular}
+    
+\subsection{Auto-adjust size}
+\begin{tabular}{ll}
+    \emph{command} & \emph{output} \\
+
+    \verb!\set{x}! & $\set{x}$ \\
+    \verb!\ceil{x}! & $\ceil{x}$ \\
+    \verb!\floor{x}! & $\floor{x}$ \\
+    \verb!\norm{x}! & $\norm{x}$ \\
+    \verb!\abs{x}! & $\abs{x}$ \\
+    \verb!\paren{x}! & $\paren{x}$ \\
+    \verb!\sbrak{x}! & $\sbrak{x}$ \\
+    \verb!\dotp{a}{b}! & $\dotp{a}{b}$ \\
+    \verb!\inner{a}{b}! & $\inner{a}{b}$ \\
+    \verb!\outerp{x}! & $\outerp{x}$ \\
+    \verb!\outerpp{x-b}! & $\outerpp{x-b}$ \\
+    \verb!\tr{x}! & $\tr{x}$ \\
+    \verb!\Exp{x}{a}! & $\Exp{x}{a}$ \\
+    \verb!\CondExp{x}{y}{a}! & $\CondExp{x}{y}{a}$ \\
+    \verb!\KL{P}{Q}! & $\KL{P}{Q}$ \\
+    \verb!\KLmax{P}{Q}! & $\KLmax{P}{Q}$ \\
+    \verb!\minimize{x}{a}! & $\minimize{x}{a}$ \\
+    \verb!\maximize{x}{a}! & $\maximize{x}{a}$ \\
+    \verb!\subto{x}! & $\subto{x}$ \\
+    \verb!\ddfrac{x}{y}! & $\ddfrac{x}{y}$ \\
+    \verb!\ddfracc{x}! & $\ddfracc{x}$ \\
+    \verb!\pfrac{x}{y}! & $\pfrac{x}{y}$ \\
+    \verb!\pfracc{x}! & $\pfracc{x}$ \\
+    \verb!\avgsum{x}{1}{N}! & $\avgsum{x}{1}{N}$ \\
+    \verb!\indicator{x=a}! & $\indicator{x=a}$ \\
+    \verb!\quaform{x}{A}! & $\quaform{x}{A}$ \\
+    \verb!\quaforms{x-y}{A}! & $\quaforms{x-y}{A}$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+    \verb!! & $$ \\
+
+\end{tabular}
+
+
+
+
+
+\end{multicols}
+
+\end{document}
