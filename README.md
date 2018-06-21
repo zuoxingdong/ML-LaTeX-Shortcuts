@@ -46,6 +46,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Karkus et al., QMDP-Net: Deep Learning for Planning under Partial Observability
 - Tamar et al., Learning Generalized Reactive Policies using Deep Neural Networks
 - Singh et al., Value Prediction Networks
+- Lin et al., Value Propagation Networks
 - Salakhutdinov et al., LSTM Iteration Networks: An Exploration of Differentialble Path Finding
 - Gal et al., Improving PILCO with Bayesian Neural Network Dynamics Models
 - Meger et al., Synthesizing Neural Network Controllers with Probabilistic Model-based Reinforcement Learning
