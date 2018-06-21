@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\input{config.tex}
+
+\title{Variational Optimization \cite{staines2012variational}}
+\author{Xingdong Zuo}
+\affil[]{IDSIA, Switzerland}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Variational optimization (VO) is a technique to optimize a non-differentiable or discrete objective function with a differentiable bound on the optima. Let $x\in\ccD\subset\bbR^n$ be a vector in the domain and let $f(x)$ be a non-differentiable function, our goal is to maximize the function, i.e. $f^* = \max_{x\in\ccD} f(x)$. We cannot use traditional gradient ascent techniques due to non-differentiability of $f$. In VO, we could replace it with a differentiable surrogate objective by a lower bound on the optimum of $f(x)$
+\begin{equation}
+    f^* = \max_{x\in\ccD} f(x) \ge \Exp{f(x)}{x\sim p(x|\theta)}
+\end{equation}
+where $p(x|\theta)$ is a probability distribution over $\ccD$ parameterized by $\theta$. 
+
+\section{Differentiability of the variational bound}
+We could apply REINFORCE technique to obtain an unbiased gradient estimator, i.e. 
+\begin{align}
+    \grad_{\theta}\Exp{f(x)}{x\sim p(x|\theta)} 
+    &= \Exp{f(x)\grad_{\theta}\log p(x|\theta)}{x\sim p(x|\theta)} \\
+    &\approx \avgsum{i}{1}{N}f(x_i)\grad_{\theta}\log p(x_i|\theta)
+\end{align}
+
+\section{Concavity of the variational bound}
+\begin{definition}
+    Let $I\subset\bbR$ be an interval in real line, a function $f: I\to\bbR$ is concave if $\forall x, y\in I$ and $\forall \alpha\in[0, 1]$ such that
+    \begin{equation}
+        f((1-\alpha)x + \alpha y) \ge (1-\alpha)f(x) + \alpha f(y). 
+    \end{equation}
+\end{definition}
+Alternatively, one can rewrite it as
+\begin{equation}
+    f(x + \alpha(y - x)) \ge f(x) + \alpha(f(y) - f(x)). 
+\end{equation}
+
+\begin{definition}
+    A probability distribution $p(x|\theta)$ parameterized by $\theta$ is expectation affine if
+    \begin{equation}
+        \Exp{f(x)}{x\sim p(x|\theta)} = \Exp{f(\alpha(\theta)z + \beta(\theta))}{z\sim q(z)}
+    \end{equation}
+    where $\alpha(\theta), \beta(\theta)$ are linear functions and $q(z)$ is a probability distribution. 
+\end{definition}
+
+\begin{theorem}\label{thm:concavebound}
+    If a function $f(x)$ is concave and a probability distribution $p(x|\theta)$ parameterized by $\theta$ is expectation affine, then the variational lower bound $\Exp{f(x)}{x\sim p(x|\theta)}$ is concave in $\theta$. 
+\end{theorem}
+\begin{proof}
+    Let $\lambda\in[0, 1]$ be a scalar. We have
+    \begin{align*}
+        \Exp{f(x)}{x\sim p(x|\lambda\theta_1 + (1-\lambda)\theta_2)}
+        &= \Exp{f(\alpha(\lambda\theta_1 + (1-\lambda)\theta_2)z + \beta(\lambda\theta_1 + (1-\lambda)\theta_2))}{z\sim q(z)} \\
+        &= \Exp{f(\lambda(\alpha(\theta_1)z + \beta(\theta_1)) + (1-\lambda)(\alpha(\theta_2)z + \beta(\theta_2)))}{z\sim q(z)} \\
+        &\ge \Exp{\lambda f(\alpha(\theta_1)z + \beta(\theta_1)) + (1-\lambda) f(\alpha(\theta_2)z + \beta(\theta_2))}{z\sim q(z)} \\
+        &= \lambda\Exp{f(\alpha(\theta_1)z + \beta(\theta_1))}{z\sim q(z)} + (1-\lambda)\Exp{f(\alpha(\theta_2)z + \beta(\theta_2))}{z\sim q(z)} \\
+        &= \lambda\Exp{f(x)}{x\sim p(x|\theta_1)} + (1-\lambda)\Exp{f(x)}{x\sim p(x|\theta_2)}
+    \end{align*}
+\end{proof}
+The \Thmref{thm:concavebound} indicates that if $f(x)$ has unique global optimum, so does its variational lower bound. 
+
+\section{Estimation of distribution algorithm}
+Given the optimization problem $f^* = \max_{x\in\ccD}f(x)$ where $f(x)$ is non-differentiable. We could instead optimize the variational lower bound $\Exp{f(x)}{x\sim p(x|\theta)}$. 
+
+The general procedure is shown as following
+\begin{enumerate}
+    \item Prior distribution $p_0(x|\theta_0)$
+    \item Iteratively
+        \begin{enumerate}
+            \item Generate solution set $\set{x_n}$ and evaluate them $\set{f(x_n)}$
+            \item Update distribution: $p(x|\theta_{i+1})=F\paren{p(x|\theta_i), \set{x_n}, \set{f(x_n)}}$ for some function $F$. 
+        \end{enumerate}
+\end{enumerate}
+
+\printbibliography
+
+\end{document}
