@@ -11,13 +11,13 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Hansen, The CMA Evolution Strategy: A Tutorial
 - Graves et al., Parameter-exploring policy gradients
 - Wierstra et al., Natural Evolution Strategies
+- Tucker et al., Guided evolutionary strategies: escaping the curse of dimensionality in random search
 
 # RL
 - Nachum et al., Bridging the Gap Between Valud and Policy Based Reinforcement Learning
 
 # Policy Gradients
-- Williams, Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning
-- Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C/A3C)
+- Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C)
 - Precup et al., DRL that Matters
 - Schulman, High-dimensional continuous control using generalized advantage estimation
 - Schulman, Benchmarking deep reinforcement learning for continuous control
