@@ -139,7 +139,12 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Oudeyer et al., Accuracy-based Curriculum Learning in Deep Reinforcement Learning
 
 # Neuroscience & Cognitive Science
-- Botvinick et al., The hippocampus as a predictive map, Nature
+- Botvinick et al., The hippocampus as a predictive map
+- Botvinick, Hierarchical models of behavior and prefrontal function
+- Botvinick, Hierarchical reinforcement learning and decision making
+- Botvinick, A neural signature of hierarchical reinforcement learning
+- Botvinick, Hierarchically organized behavior and its neural foundations: a reinforcement learning perspective
+- Botvinick et al., Reinforcement learning, efficient coding, and the statistics of natural tasks
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
 - Tenenbaum et al., Building machines that learn and think like people
 - Doll, The ubiquity of model-based reinforcement learning
