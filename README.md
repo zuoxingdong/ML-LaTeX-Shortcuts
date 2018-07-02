@@ -91,6 +91,12 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
 
 # Meta-RL
+- Silver et al., Meta-Gradient Reinforcement Learning
+- Abbeel et al., Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
+- Abbeel et al., Learning to Adapt: Meta-Learning for Model-Based Control
+- Schulman et al., On First-Order Meta-Learning Algorithms
+- Schaul et al., Learning to learn by gradient descent by gradient descent
+- Abbeel et al., Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 
 # Graph Networks in RL
 - Rezende et al., Interaction Networks for Learning about Objects, Relations and Physics
@@ -99,6 +105,12 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Curriculum (Lifelong) RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
+- Aljundi et al., Memory aware synapses: Learning what (not) to forget
+- French, Catastrophic forgetting in connectionist networks
+- Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
+- Rusu et al., Progressive Neural Networks
+- Blundell et al., Memory-based Parameter Adaptation
+- Zenke et al., Continual Learning Through Synaptic Intelligence
 
 # Neuroscience
 - Botvinick et al., The hippocampus as a predictive map, Nature
@@ -116,6 +128,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Grosse et al., Noisy Natural Gradient as Variational Inference
 - Gal et al., Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam
 - Nielsen et al., Variational Adaptive-Newton Method for Explorative Learning
+- Whiteson et al., DiCE: The Infinitely Differentiable Monte-Carlo Estimator
 
 # Bayesian Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
