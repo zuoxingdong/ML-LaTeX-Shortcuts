@@ -97,6 +97,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Schulman et al., On First-Order Meta-Learning Algorithms
 - Schaul et al., Learning to learn by gradient descent by gradient descent
 - Abbeel et al., Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+- Botvinick et al., Learning to Reinforcement Learn
 
 # Graph Networks in RL
 - Rezende et al., Interaction Networks for Learning about Objects, Relations and Physics
@@ -112,9 +113,10 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Blundell et al., Memory-based Parameter Adaptation
 - Zenke et al., Continual Learning Through Synaptic Intelligence
 
-# Neuroscience
+# Neuroscience & Cognitive Science
 - Botvinick et al., The hippocampus as a predictive map, Nature
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
+- Tenenbaum et al., Building machines that learn and think like people
 
 # Deep learning
 - Dumoulin, A guide to convolution arithmetic for deep learning
