@@ -172,6 +172,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Grosse et al., Noisy Natural Gradient as Variational Inference
 
 # Bayesian Neural Networks & Bayesian RL
+- Osband et al., Randomized Prior Functions for Deep Reinforcement Learning
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
 - Gal et al., What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision ?
