@@ -183,6 +183,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Lakshminarayanan et al., Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
 - Henderson et al., Bayesian Policy Gradients via Alpha Divergence Dropout Inference
 - Vetrov et al., Structured Bayesian Pruning via Log-Normal Multiplicative Noise
+- Rezende et al., Neural Processes
 
 # Useful maths
 - Schon et al., Manipulating the Multivariate Gaussian Density
