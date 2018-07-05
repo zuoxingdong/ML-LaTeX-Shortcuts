@@ -83,7 +83,8 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine et al., Temporal Difference Models: Model-Free Deep RL for Model-Based Control
 
 # Exploration in RL
-- Ostand et al. Deep Exploration via Bootstrapped DQN
+- Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
+- Osband et al. Deep Exploration via Bootstrapped DQN
 - Osband et al. (More) efficient reinforcement learning via posterior sampling
 - Osband et al., Why is Posterior Sampling Better than Optimism for Reinforcement Learning?
 - Abbeel et al., VIME: Variational Information Maximizing Exploration
