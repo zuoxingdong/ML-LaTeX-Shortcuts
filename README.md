@@ -97,6 +97,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine et al., EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
 - Rezende et al., Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning
 - Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
+- Moerland et al., The Potential of the Return Distribution for Exploration in RL
 
 # Hierarchical RL
 - Barto, Intrinsically motivated learning of hierarchical collections of skills
