@@ -25,6 +25,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Theory in RL
 - Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
 - Pardo et al., Time Limits in Reinforcement Learning
+- Meger et al., Addressing Function Approximation Error in Actor-Critic Methods
 
 # Policy Gradients
 - Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C)
@@ -110,6 +111,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Hierarchical RL
 - Barto, Intrinsically motivated learning of hierarchical collections of skills
 - Silver et al., FeUdal Networks for Hierarchical Reinforcement Learning
+- Levine et al., Data-Efficient Hierarchical Reinforcement Learning
 
 # Meta-RL
 - Silver et al., Meta-Gradient Reinforcement Learning
