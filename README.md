@@ -19,7 +19,12 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Nachum et al., Bridging the Gap Between Valud and Policy Based Reinforcement Learning
 - Schaul et al., Universal Value Function Approximators
 - Levine, Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review
+- Srouji et al., Structured Control Nets for Deep Reinforcement Learning
+- Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
 
+# Theory in RL
+- Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
+- Pardo et al., Time Limits in Reinforcement Learning
 
 # Policy Gradients
 - Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C)
@@ -52,9 +57,12 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Tamar et al., Value Iteration Networks
 - Karkus et al., QMDP-Net: Deep Learning for Planning under Partial Observability
 - Tamar et al., Learning Generalized Reactive Policies using Deep Neural Networks
+- Tamar et al., Learning Plannable Representations with Causal InfoGAN
 - Singh et al., Value Prediction Networks
 - Lin et al., Value Propagation Networks
+- Lee et al., Gated Path Planning Networks
 - Salakhutdinov et al., LSTM Iteration Networks: An Exploration of Differentialble Path Finding
+- Wierstra et al., Learning Dynamic State Abstractions for Model-Based Reinforcement Learning
 - Gal et al., Improving PILCO with Bayesian Neural Network Dynamics Models
 - Meger et al., Synthesizing Neural Network Controllers with Probabilistic Model-based Reinforcement Learning
 - Wierstra et al., Learning model-based planning from scratch
