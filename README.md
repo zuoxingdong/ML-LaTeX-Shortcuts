@@ -171,6 +171,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Dumoulin, A guide to convolution arithmetic for deep learning
 - Bottou, Stochastic Gradient Descent Tricks
 - Kingma et al., Auto-Encoding Variational Bayes
+- Hauser et al., Principles of Riemannian Geometry in Neural Networks
 
 # Optimization & Variational Inference
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
