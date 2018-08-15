@@ -200,3 +200,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Useful maths
 - Schon et al., Manipulating the Multivariate Gaussian Density
+
+# Waiting list
+- Tishby et al., A Unified Bellman Equation for Causal Information and Value in Markov Decision Processes
+- Botvinick et al., Learning to Share and Hide Intentions using Information Regularization
