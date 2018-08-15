@@ -23,11 +23,13 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
 
 # Theory in RL
+- Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
 - Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
 - Pardo et al., Time Limits in Reinforcement Learning
 - Meger et al., Addressing Function Approximation Error in Actor-Critic Methods
 
 # Policy Gradients
+- Peters et al., Reinforcement learning of motor skills with policy gradients
 - Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C)
 - Precup et al., DRL that Matters
 - Schulman, High-dimensional continuous control using generalized advantage estimation
@@ -66,6 +68,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Wierstra et al., Learning Dynamic State Abstractions for Model-Based Reinforcement Learning
 - Gal et al., Improving PILCO with Bayesian Neural Network Dynamics Models
 - Meger et al., Synthesizing Neural Network Controllers with Probabilistic Model-based Reinforcement Learning
+- Levine et al., Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models
 - Wierstra et al., Learning model-based planning from scratch
 - Gu et al., Continuous Deep Q-Learning with Model-based Acceleration
 - Lecun et al., Model-Based Planning in Discrete and Continuous Actions
