@@ -21,6 +21,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine, Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review
 - Srouji et al., Structured Control Nets for Deep Reinforcement Learning
 - Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
+- Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
 
 # Theory in RL
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
@@ -113,6 +114,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Hierarchical RL
 - Barto, Intrinsically motivated learning of hierarchical collections of skills
+- Sutton et al., Between MDPs and Semi-MDPs: Learning, planning, and representing knowledge at multiple temporal scales
 - Silver et al., FeUdal Networks for Hierarchical Reinforcement Learning
 - Levine et al., Data-Efficient Hierarchical Reinforcement Learning
 
