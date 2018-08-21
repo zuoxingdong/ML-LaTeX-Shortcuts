@@ -180,6 +180,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Hauser et al., Principles of Riemannian Geometry in Neural Networks
 
 # Optimization & Variational Inference
+- Bottou et al., Optimization Methods for Large-Scale Machine Learning
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
 - Barber et al., [Variational Optimization](/Variational_Optimization)
 - Grathwohl et al., Backpropagation through the Void: Optimizing control variates for black-box gradient estimation
