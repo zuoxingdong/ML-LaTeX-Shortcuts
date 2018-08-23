@@ -1,8 +1,9 @@
 # Notes-RL
-Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact summary and detailed mathematical derivations.
+Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact summary and focus on detailed mathematical derivations.
 
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
+- Scholkopf et al., Elements of Causal Inference
 
 # Derivative-Free Optimization
 - Szita et al., Learning Teris using the Noisy Cross-Entropy Method
@@ -23,6 +24,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
 - Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
 - Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
+- Braun et al., A Minimum Relative Entropy Principle for Learning and Acting
 
 # Theory in RL
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
@@ -196,7 +198,6 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 
 # Causal inference & Reasoning & Causal RL
 - Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
-- Scholkopf et al., Elements of Causal Inference
 - Ziebart et al., Modeling Interaction via the Principle of Maximum Causal Entropy
 
 # Bayesian Neural Networks & Bayesian RL
