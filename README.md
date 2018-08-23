@@ -173,6 +173,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Moser et al., Place cells, grid cells, and the brain's spatial representation system
 - Frank et al., Within- and across-trial dynamics of human EEG reveal cooperative interplay between reinforcement learning and working memory
 - Behrens et al., What is a cognitive map? Organising knowledge for flexible behaviour
+- Niv et al., Reinforcement learning in the brain
 
 # Deep learning
 - Dumoulin, A guide to convolution arithmetic for deep learning
