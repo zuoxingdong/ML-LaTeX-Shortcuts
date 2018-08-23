@@ -22,6 +22,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Srouji et al., Structured Control Nets for Deep Reinforcement Learning
 - Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
 - Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
+- Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
 
 # Theory in RL
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
