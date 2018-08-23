@@ -98,6 +98,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine et al., Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning
 - Levine et al., Temporal Difference Models: Model-Free Deep RL for Model-Based Control
 - Scholkopft et al., Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models
+- Whiteson et al., Deep Variational Reinforcement Learning for POMDPs
 
 # Exploration in RL
 - Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
