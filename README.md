@@ -193,10 +193,10 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Gu et al., Categorical Reparameterization with Gumbel-Softmax
 - Grosse et al., Noisy Natural Gradient as Variational Inference
 
-# Causal inference & Reasoning
+# Causal inference & Reasoning & Causal RL
 - Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
 - Scholkopf et al., Elements of Causal Inference
-- 
+- Ziebart et al., Modeling Interaction via the Principle of Maximum Causal Entropy
 
 # Bayesian Neural Networks & Bayesian RL
 - Osband et al., Randomized Prior Functions for Deep Reinforcement Learning
