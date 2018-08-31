@@ -97,6 +97,8 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Levine et al., Recall Traces: Backtracking Models for Efficient Reinforcement Learning
 - Levine et al., Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning
 - Levine et al., Temporal Difference Models: Model-Free Deep RL for Model-Based Control
+- Gregor et al., Temporal Difference Variational Auto-Encoder
+- Abbeel et al., SOLAR: Deep Structured Latent Representations for Model-Based Reinforcement Learning
 - Scholkopft et al., Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models
 - Whiteson et al., Deep Variational Reinforcement Learning for POMDPs
 
