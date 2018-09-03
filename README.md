@@ -26,6 +26,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
 - Braun et al., A Minimum Relative Entropy Principle for Learning and Acting
 - Silver et al., Learning Continuous Control Policies by Stochastic Value Gradients
+- Silver et al., Continuous control with deep reinforcement learning
 
 # Theory in RL
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
