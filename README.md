@@ -25,6 +25,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
 - Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
 - Braun et al., A Minimum Relative Entropy Principle for Learning and Acting
+- Silver et al., Learning Continuous Control Policies by Stochastic Value Gradients
 
 # Theory in RL
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
