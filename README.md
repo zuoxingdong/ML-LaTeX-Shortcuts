@@ -120,6 +120,8 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Rezende et al., Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning
 - Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
 - Moerland et al., The Potential of the Return Distribution for Exploration in RL
+- Pineau et al., Randomized Value Functions via Multiplicative Normalizing Flows
+- Abbeel et al., Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models
 
 # Hierarchical RL
 - Barto, Intrinsically motivated learning of hierarchical collections of skills
@@ -204,6 +206,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Causal inference & Reasoning & Causal RL
 - Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
 - Ziebart et al., Modeling Interaction via the Principle of Maximum Causal Entropy
+- Ziebart et al., Modeling Purposeful Adaptive Behavior with the Principle of Maximum Causal Entropy
 
 # Bayesian Neural Networks & Bayesian RL
 - Osband et al., Randomized Prior Functions for Deep Reinforcement Learning
