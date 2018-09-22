@@ -104,6 +104,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Scholkopft et al., Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models
 - Whiteson et al., Deep Variational Reinforcement Learning for POMDPs
 - Singh et al., Improving model-based RL with Adaptive Rollout using Uncertainty Estimation
+- Abbeel et al., Model-Based Reinforcement Learning via Meta-Policy Optimization
 
 # Exploration in RL
 - Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
@@ -203,6 +204,8 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Maddison et al., The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables
 - Gu et al., Categorical Reparameterization with Gumbel-Softmax
 - Grosse et al., Noisy Natural Gradient as Variational Inference
+- Doucet et al., Hamiltonian Descent Methods
+- Bengio et al., On the Learning Dynamics of Deep Neural Networks
 
 # Causal inference & Reasoning & Causal RL
 - Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
