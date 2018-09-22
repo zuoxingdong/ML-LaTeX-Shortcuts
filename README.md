@@ -103,6 +103,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Abbeel et al., SOLAR: Deep Structured Latent Representations for Model-Based Reinforcement Learning
 - Scholkopft et al., Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models
 - Whiteson et al., Deep Variational Reinforcement Learning for POMDPs
+- Singh et al., Improving model-based RL with Adaptive Rollout using Uncertainty Estimation
 
 # Exploration in RL
 - Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
