@@ -203,10 +203,10 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Whiteson et al., DiCE: The Infinitely Differentiable Monte-Carlo Estimator
 - Maddison et al., The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables
 - Gu et al., Categorical Reparameterization with Gumbel-Softmax
-- Grosse et al., Noisy Natural Gradient as Variational Inference
 - Doucet et al., Hamiltonian Descent Methods
 - Bengio et al., On the Learning Dynamics of Deep Neural Networks
 - Barber et al., Stochastic Variational Optimization
+- Martens et al., New insights and perspectives on the natural gradient method
 
 # Causal inference & Reasoning & Causal RL
 - Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
