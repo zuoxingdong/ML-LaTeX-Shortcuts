@@ -51,6 +51,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Gu et al., Q-Prop
 - Gu et al., Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning
 - Kakade, A Natural Policy Gradient
+- Silver et al., Memory-based control with recurrent neural networks
 
 # DQN
 - Silver et al., Human-level control through deep reinforcement learning
