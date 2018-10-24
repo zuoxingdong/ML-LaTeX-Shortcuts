@@ -13,6 +13,12 @@ Based on my own research interests, we have following main focuses
 
 # Table of contents
 - [Textbook](#textbook)
+- [Derivative-Free Optimization & Evolution Strategies](#Derivative-Free-Optimization-&-Evolution-Strategies)
+- []()
+- []()
+- []()
+- []()
+- []()
 
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
