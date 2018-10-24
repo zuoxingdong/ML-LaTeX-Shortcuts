@@ -38,31 +38,31 @@ Based on my own research interests, we have following main focuses
 
 # Policy Gradients
 - Peters et al., Reinforcement learning of motor skills with policy gradients
-- Silver et al., Asynchronous methods for Deep Reinforcement Learning (A2C)
-- Precup et al., DRL that Matters
-- Schulman, High-dimensional continuous control using generalized advantage estimation
 - Schulman, Benchmarking deep reinforcement learning for continuous control
-- Kakade, Approximately Optimal Approximate Reinforcement Learning
+- Precup et al., DRL that Matters
+- Silver et al., A2C
+- Mnih et al., IMPALA
 - Silver et al., DPG
 - Silver et al., DDPG
+- Kakade, Approximately Optimal Approximate Reinforcement Learning
+- Kakade, A Natural Policy Gradient
 - Schulman et al., TRPO
 - Schulman et al., PPO
-- Liu et al., Stein Variational Policy Gradient
-- Gruslys et al., The Reactor
+- Schulman, High-dimensional continuous control using generalized advantage estimation
 - Wang et al., Sample Efficient Actor-Critic with Experience Reply
 - Gu et al., Q-Prop
+- Gruslys et al., The Reactor
+- Liu et al., Stein Variational Policy Gradient
 - Gu et al., Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning
-- Kakade, A Natural Policy Gradient
-- Silver et al., Memory-based control with recurrent neural networks
 
 # DQN
 - Silver et al., Human-level control through deep reinforcement learning
 - Silver et al. Double Q-Learning
 - Silver et al. Dueling network architectures for deep reinforcement learning
 - Silver et al. Prioritized experience replay
-- Silver et al., Rainbow: Combining Improvements in DRL
 - Bellemare et al., A Distributional Perspective on Reinforcement Learning
 - Sutton et al., A Deeper Look at Experience Replay
+- Silver et al., Rainbow: Combining Improvements in DRL
 
 # Model-based RL & Planning
 - Doll et al., The ubiquity of model-based reinforcement learning
@@ -126,6 +126,7 @@ Based on my own research interests, we have following main focuses
 # Misc RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 - [Dopamine: A Research Framework for Deep Reinforcement Learning](/dopamine)
+- Silver et al., Memory-based control with recurrent neural networks
 - Rusu et al., Policy Distillation
 - Schulman et al., Teacher-Student Curriculum Learning
 - Rezende et al., Interaction Networks for Learning about Objects, Relations and Physics
