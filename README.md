@@ -11,6 +11,9 @@ Based on my own research interests, we have following main focuses
 - Optimization
 - Information theory
 
+# Table of contents
+- [Textbook](#textbook)
+
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
 
