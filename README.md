@@ -13,12 +13,15 @@ Based on my own research interests, we have following main focuses
 
 # Table of contents
 - [Textbook](#textbook)
-- [Derivative-Free Optimization & Evolution Strategies](#Derivative-Free-Optimization-&-Evolution-Strategies)
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Derivative-Free Optimization & Evolution Strategies](#derivative-free-optimization--evolution-strategies)
+- [Policy Gradients](#policy-gradients)
+- [DQN](#dqn)
+- [Model-based RL & Planning](#model-based-rl--planning)
+- [RL Theory](#rl-theory)
+- [Misc RL](#misc-rl)
+- [Optimization & Variational Inference](#optimization--variational-inference)
+- [Misc ML](#misc-ml)
+- [Neuroscience](#neuroscience)
 
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
@@ -102,46 +105,15 @@ Based on my own research interests, we have following main focuses
 - Singh et al., Improving model-based RL with Adaptive Rollout using Uncertainty Estimation
 - Abbeel et al., Model-Based Reinforcement Learning via Meta-Policy Optimization
 
-# Exploration in RL
-- Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
-- Osband et al. Deep Exploration via Bootstrapped DQN
-- Osband et al. (More) efficient reinforcement learning via posterior sampling
-- Osband et al., Why is Posterior Sampling Better than Optimism for Reinforcement Learning?
-- Abbeel et al., VIME: Variational Information Maximizing Exploration
-- Ostrovski et al., Count-Based Exploration with Neural Density Models
-- Tang et al., #Exploration: A Study of Count-based Exploration for Deep Reinforcement Learning
-- Fortunato et al., Noisy Networks for Exploration
-- Plappert et al., Parameter Space Noise for Exploration
-- Wierstra et al., Learning and Querying Fast Generative Models for Reinforcement Learning
-- Bellemare et al., Unifying Count-Based Exploration and Intrinsic Motivation
-- Levine et al., EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
-- Rezende et al., Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning
-- Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
-- Moerland et al., The Potential of the Return Distribution for Exploration in RL
-- Pineau et al., Randomized Value Functions via Multiplicative Normalizing Flows
-- Abbeel et al., Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models
-
-# Hierarchical RL
-- Barto, Intrinsically motivated learning of hierarchical collections of skills
-- Sutton et al., Between MDPs and Semi-MDPs: Learning, planning, and representing knowledge at multiple temporal scales
-- Silver et al., FeUdal Networks for Hierarchical Reinforcement Learning
-- Levine et al., Data-Efficient Hierarchical Reinforcement Learning
-
-# Meta-RL
-- Silver et al., Meta-Gradient Reinforcement Learning
-- Abbeel et al., Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
-- Abbeel et al., Learning to Adapt: Meta-Learning for Model-Based Control
-- Schulman et al., On First-Order Meta-Learning Algorithms
-- Schaul et al., Learning to learn by gradient descent by gradient descent
-- Abbeel et al., Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
-- Botvinick et al., Learning to Reinforcement Learn
-- Abbeel et al., A Simple Neural Attentive Meta-Learner
-
 # RL Theory
 - Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
+- Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
+- Osband et al. (More) efficient reinforcement learning via posterior sampling
+- Osband et al., Why is Posterior Sampling Better than Optimism for Reinforcement Learning?
 - Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
 - Nachum et al., Bridging the Gap Between Valud and Policy Based Reinforcement Learning
 - Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
+- Tishby et al., A Unified Bellman Equation for Causal Information and Value in Markov Decision Processes
 - Pardo et al., Time Limits in Reinforcement Learning
 - Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
 - Meger et al., Addressing Function Approximation Error in Actor-Critic Methods
@@ -166,32 +138,35 @@ Based on my own research interests, we have following main focuses
 - Oudeyer et al., Intrinsically Motivated Goal Exploration Processes with Automatic Curriculum Learning
 - Oudeyer et al., Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration
 - Oudeyer et al., Accuracy-based Curriculum Learning in Deep Reinforcement Learning
-
-# Neuroscience & Cognitive Science
-- Botvinick et al., The hippocampus as a predictive map
-- Botvinick, Hierarchical models of behavior and prefrontal function
-- Botvinick, Hierarchical reinforcement learning and decision making
-- Botvinick, A neural signature of hierarchical reinforcement learning
-- Botvinick, Hierarchically organized behavior and its neural foundations: a reinforcement learning perspective
-- Botvinick et al., Reinforcement learning, efficient coding, and the statistics of natural tasks
-- Hassabis et al., Neuroscience-Inspired Artificial Intelligence
-- Tenenbaum et al., Building machines that learn and think like people
-- Doll, The ubiquity of model-based reinforcement learning
-- Morel et al., Linearization of excitatory synaptic integration at no extra cost
-- Lau et al., What is consciousness, and could machines have it?
-- Points et al., Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior
-- Moser et al., Place cells, grid cells, and the brain's spatial representation system
-- Frank et al., Within- and across-trial dynamics of human EEG reveal cooperative interplay between reinforcement learning and working memory
-- Behrens et al., What is a cognitive map? Organising knowledge for flexible behaviour
-- Niv et al., Reinforcement learning in the brain
-
-# Deep learning
-- Dumoulin, A guide to convolution arithmetic for deep learning
-- Bottou, Stochastic Gradient Descent Tricks
-- Kingma et al., Auto-Encoding Variational Bayes
-- Hauser et al., Principles of Riemannian Geometry in Neural Networks
+- Barto, Intrinsically motivated learning of hierarchical collections of skills
+- Sutton et al., Between MDPs and Semi-MDPs: Learning, planning, and representing knowledge at multiple temporal scales
+- Silver et al., FeUdal Networks for Hierarchical Reinforcement Learning
+- Levine et al., Data-Efficient Hierarchical Reinforcement Learning
+- Silver et al., Meta-Gradient Reinforcement Learning
+- Abbeel et al., Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
+- Abbeel et al., Learning to Adapt: Meta-Learning for Model-Based Control
+- Schulman et al., On First-Order Meta-Learning Algorithms
+- Schaul et al., Learning to learn by gradient descent by gradient descent
+- Abbeel et al., Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+- Botvinick et al., Learning to Reinforcement Learn
+- Abbeel et al., A Simple Neural Attentive Meta-Learner
+- Osband et al. Deep Exploration via Bootstrapped DQN
+- Abbeel et al., VIME: Variational Information Maximizing Exploration
+- Ostrovski et al., Count-Based Exploration with Neural Density Models
+- Tang et al., #Exploration: A Study of Count-based Exploration for Deep Reinforcement Learning
+- Fortunato et al., Noisy Networks for Exploration
+- Plappert et al., Parameter Space Noise for Exploration
+- Wierstra et al., Learning and Querying Fast Generative Models for Reinforcement Learning
+- Bellemare et al., Unifying Count-Based Exploration and Intrinsic Motivation
+- Levine et al., EX2: Exploration with Exemplar Models for Deep Reinforcement Learning
+- Rezende et al., Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning
+- Agrawal et al., Curiosity-driven Exploration by Self-supervised Prediction
+- Moerland et al., The Potential of the Return Distribution for Exploration in RL
+- Pineau et al., Randomized Value Functions via Multiplicative Normalizing Flows
+- Abbeel et al., Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models
 
 # Optimization & Variational Inference
+- Bottou, Stochastic Gradient Descent Tricks
 - Bottou et al., Optimization Methods for Large-Scale Machine Learning
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
 - Barber et al., [Variational Optimization](/Variational_Optimization)
@@ -208,7 +183,16 @@ Based on my own research interests, we have following main focuses
 - Barber et al., Stochastic Variational Optimization
 - Martens et al., New insights and perspectives on the natural gradient method
 
-# Bayesian NN
+# Misc ML
+- Schon et al., Manipulating the Multivariate Gaussian Density
+- Dumoulin, A guide to convolution arithmetic for deep learning
+- Kingma et al., Auto-Encoding Variational Bayes
+- Hauser et al., Principles of Riemannian Geometry in Neural Networks
+- Botvinick et al., Learning to Share and Hide Intentions using Information Regularization
+- Rusu et al., Progressive Neural Networks
+- Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
+- Bengio, Curriculum Learning
+- Graves et al., Automated Curriculum Learning for Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
 - Gal et al., What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision ?
@@ -219,12 +203,21 @@ Based on my own research interests, we have following main focuses
 - Vetrov et al., Structured Bayesian Pruning via Log-Normal Multiplicative Noise
 - Rezende et al., Neural Processes
 
-# Misc ML
-- Schon et al., Manipulating the Multivariate Gaussian Density
-- Tishby et al., A Unified Bellman Equation for Causal Information and Value in Markov Decision Processes
-- Botvinick et al., Learning to Share and Hide Intentions using Information Regularization
-- Rusu et al., Progressive Neural Networks
-- Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
-- Bengio, Curriculum Learning
-- Graves et al., Automated Curriculum Learning for Neural Networks
+# Neuroscience
+- Botvinick et al., The hippocampus as a predictive map
+- Botvinick, Hierarchical models of behavior and prefrontal function
+- Botvinick, Hierarchical reinforcement learning and decision making
+- Botvinick, A neural signature of hierarchical reinforcement learning
+- Botvinick, Hierarchically organized behavior and its neural foundations: a reinforcement learning perspective
+- Botvinick et al., Reinforcement learning, efficient coding, and the statistics of natural tasks
+- Hassabis et al., Neuroscience-Inspired Artificial Intelligence
+- Tenenbaum et al., Building machines that learn and think like people
+- Doll, The ubiquity of model-based reinforcement learning
+- Morel et al., Linearization of excitatory synaptic integration at no extra cost
+- Lau et al., What is consciousness, and could machines have it?
+- Points et al., Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior
+- Moser et al., Place cells, grid cells, and the brain's spatial representation system
+- Frank et al., Within- and across-trial dynamics of human EEG reveal cooperative interplay between reinforcement learning and working memory
+- Behrens et al., What is a cognitive map? Organising knowledge for flexible behaviour
+- Niv et al., Reinforcement learning in the brain
 
