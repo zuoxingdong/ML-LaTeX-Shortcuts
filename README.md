@@ -1,9 +1,12 @@
 # Notes-RL
-A notes (PDF+LaTeX) collection of important papers with the focus on reinforcement learning. Each note contains a compact summary of key idea in the paper, that is which problem the paper tries to solve and how they solve it. Second part is the detailed mathematical derivations.
+A notes collection of important papers with the focus on reinforcement learning. Each note contains a compact summary of key idea in the paper, that is which problem the paper tries to solve and how they solve it. Second part is the detailed mathematical derivations.
 
 ## Structure of notes:
 - Compact summary of key idea: which problem the paper tries to solve ? How they solve it ?
 - Mathematical derivations of useful tools presented in the paper.
+- File type:
+  - Non-math (easy and quick): Markdown and Figures
+  - Math-based: PDF+LaTeX
 
 ## Main focus:
 Based on my own research interests, we have following main focuses
