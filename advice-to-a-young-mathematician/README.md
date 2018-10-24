@@ -16,4 +16,19 @@
   - Put aside paper for some time and come back, rewrite with new angle and make it clearer and easier to read. 
   
 ## Bela Bollobas
-- 
+- Be persistent, bear the problem in mind and keep brain open. 
+- Making mistakes is not fatal, full of waste notes of failed attempt is better than blank sheet. 
+- Doing simplest case of a problem can be very useful. 
+- Read many papers in your area by best people to gain a taste of high quality ideas. 
+- Be alert during paper reading, try think up a better attack, ask questions about the results and proofs. \
+- Keep ability to be surprised, not just take for granted. Spend a great deal of time to digest new ideas. Don't just read and understand the proof, but feel them in the blood. 
+
+## Alain Connes
+- When fighting with a complicated problem, go for a long walk and do computation in the head. It trains working memory and sharpen the skill. 
+- Laid down in the dark on a sofa and fight with intense problem. Isolete yourself and concentrate. But after that, being socially interactive. 
+- Being brave and turn setbacks into positive energy for working harder. 
+- Caring too much about others' opinion is a waste of time. 
+
+## Dusa McDuff
+- Overcome the fear of being ignorance to actively ask questions. 
+- Better kick off by the simplest question, it is easier to understand the complicated problem. 
