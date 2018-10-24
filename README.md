@@ -66,7 +66,7 @@ Based on my own research interests, we have following main focuses
 
 # Model-based RL & Planning
 - Doll et al., The ubiquity of model-based reinforcement learning
-- Tamar et al., Value Iteration Networks
+- Tamar et al., [Value Iteration Networks](https://github.com/zuoxingdong/VIN_PyTorch_Visdom)
 - Tamar et al., Learning Generalized Reactive Policies using Deep Neural Networks
 - Tamar et al., Learning Plannable Representations with Causal InfoGAN
 - Singh et al., Value Prediction Networks
