@@ -5,7 +5,7 @@ A notes collection of important papers with the focus on reinforcement learning.
 - Compact summary of key idea: which problem the paper tries to solve ? How they solve it ?
 - Mathematical derivations of useful tools presented in the paper.
 - File type:
-  - Non-math (easy and quick): Markdown and Figures
+  - Non-math (easy and quick): Markdown and figures
   - Math-based: PDF+LaTeX
 
 ## Main focus:
