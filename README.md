@@ -1,38 +1,25 @@
 # Notes-RL
-Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact summary and focus on detailed mathematical derivations.
+A notes (PDF+LaTeX) collection of important papers with the focus on reinforcement learning. Each note contains a compact summary of key idea in the paper, that is which problem the paper tries to solve and how they solve it. Second part is the detailed mathematical derivations.
+
+## Structure of notes:
+- Compact summary of key idea: which problem the paper tries to solve ? How they solve it ?
+- Mathematical derivations of useful tools presented in the paper.
+
+## Main focus:
+Based on my own research interests, we have following main focuses
+- Model-based RL
+- Optimization
+- Information theory
 
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
-- Scholkopf et al., Elements of Causal Inference
 
-# Derivative-Free Optimization
+# Derivative-Free Optimization & Evolution Strategies
 - Szita et al., Learning Teris using the Noisy Cross-Entropy Method
-
-# Evolution Strategies
 - Hansen, The CMA Evolution Strategy: A Tutorial
-- Graves et al., Parameter-exploring policy gradients
 - Wierstra et al., Natural Evolution Strategies
 - Tucker et al., Guided evolutionary strategies: escaping the curse of dimensionality in random search
 - Blundell et al., PathNet: Evolution Channels Gradient Descent in Super Neural Networks
-
-# RL
-- Barto et al., Learning Parameterized Skills
-- Nachum et al., Bridging the Gap Between Valud and Policy Based Reinforcement Learning
-- Schaul et al., Universal Value Function Approximators
-- Levine, Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review
-- Srouji et al., Structured Control Nets for Deep Reinforcement Learning
-- Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
-- Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
-- Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
-- Braun et al., A Minimum Relative Entropy Principle for Learning and Acting
-- Silver et al., Learning Continuous Control Policies by Stochastic Value Gradients
-- Silver et al., Continuous control with deep reinforcement learning
-
-# Theory in RL
-- Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
-- Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
-- Pardo et al., Time Limits in Reinforcement Learning
-- Meger et al., Addressing Function Approximation Error in Actor-Critic Methods
 
 # Policy Gradients
 - Peters et al., Reinforcement learning of motor skills with policy gradients
@@ -65,7 +52,6 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 # Model-based RL & Planning
 - Doll et al., The ubiquity of model-based reinforcement learning
 - Tamar et al., Value Iteration Networks
-- Karkus et al., QMDP-Net: Deep Learning for Planning under Partial Observability
 - Tamar et al., Learning Generalized Reactive Policies using Deep Neural Networks
 - Tamar et al., Learning Plannable Representations with Causal InfoGAN
 - Singh et al., Value Prediction Networks
@@ -142,29 +128,32 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Botvinick et al., Learning to Reinforcement Learn
 - Abbeel et al., A Simple Neural Attentive Meta-Learner
 
-# Graph Networks in RL
+# RL Theory
+- Bartlett et al., Infinite-Horizon Policy-Gradient Estimation
+- Fazel et al., Global Convergence of Policy Gradient Methods for Linearized Control Problems
+- Nachum et al., Bridging the Gap Between Valud and Policy Based Reinforcement Learning
+- Bellemare et al., Increasing the Action Gap: New Operators for Reinforcement Learning
+- Pardo et al., Time Limits in Reinforcement Learning
+- Dai et al., SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation
+- Meger et al., Addressing Function Approximation Error in Actor-Critic Methods
+- Schaul et al., Universal Value Function Approximators
+- Levine, Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review
+
+# Misc RL
+- [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
+- Rusu et al., Policy Distillation
+- Schulman et al., Teacher-Student Curriculum Learning
 - Rezende et al., Interaction Networks for Learning about Objects, Relations and Physics
 - Wang et al., NerveNet: Learning Structured Policy with Graph Neural Networks
 - Riedmiller et al., Graph Networks as Learnable Physics Engines for Inference and Control
-
-# Curriculum/Multitask RL
-- [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
-- Aljundi et al., Memory aware synapses: Learning what (not) to forget
-- French, Catastrophic forgetting in connectionist networks
-- Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
-- Rusu et al., Progressive Neural Networks
-- Rusu et al., Policy Distillation
-- Blundell et al., Memory-based Parameter Adaptation
-- Zenke et al., Continual Learning Through Synaptic Intelligence
-- Hadsell et al., Distral: Robust Multitask Reinforcement Learning
-- Silver et al., Unicorn: Continual Learning with a Universal, Off-policy Agent
-- Schulman et al., Teacher-Student Curriculum Learning
-- Abbeel et al., Reverse Curriculum Generation for Reinforcement Learning
-- Graves et al., Automated Curriculum Learning for Neural Networks
-- Bengio, Curriculum Learning
+- Barto et al., Learning Parameterized Skills
+- Bengio et al., Disentangling the independently controllable factors of variation by interacting with the world
+- Braun et al., A Minimum Relative Entropy Principle for Learning and Acting
+- Silver et al., Learning Continuous Control Policies by Stochastic Value Gradients
+- Silver et al., Continuous control with deep reinforcement learning
+- Osband et al., Randomized Prior Functions for Deep Reinforcement Learning
 - Clopath et al., Continual Reinforcement Learning with Complex Synapses
 - Lin et al., Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play
-- Masse et al., Alleviating catastrophic forgetting using context-dependent gating and synaptic stabilization
 - Oudeyer et al., Intrinsically Motivated Goal Exploration Processes with Automatic Curriculum Learning
 - Oudeyer et al., Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration
 - Oudeyer et al., Accuracy-based Curriculum Learning in Deep Reinforcement Learning
@@ -198,6 +187,7 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
 - Barber et al., [Variational Optimization](/Variational_Optimization)
 - Grathwohl et al., Backpropagation through the Void: Optimizing control variates for black-box gradient estimation
+- Blei et al., Variational Inference: A Review for Statisticians
 - Grosse et al., Noisy Natural Gradient as Variational Inference
 - Gal et al., Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam
 - Nielsen et al., Variational Adaptive-Newton Method for Explorative Learning
@@ -209,30 +199,23 @@ Collection of paper notes (PDF+LaTeX) in reinforcement learning, with compact su
 - Barber et al., Stochastic Variational Optimization
 - Martens et al., New insights and perspectives on the natural gradient method
 
-# Causal inference & Reasoning & Causal RL
-- Scholkopf et al., Towards a Learning Theory of Cause-Effect Inference
-- Ziebart et al., Modeling Interaction via the Principle of Maximum Causal Entropy
-- Ziebart et al., Modeling Purposeful Adaptive Behavior with the Principle of Maximum Causal Entropy
-
-# Bayesian Neural Networks & Bayesian RL
-- Osband et al., Randomized Prior Functions for Deep Reinforcement Learning
+# Bayesian NN
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
 - Gal et al., What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision ?
 - Hernandez-Lobato et al., Black-Box alpha-Divergence Minimization
-- Blei et al., Variational Inference: A Review for Statisticians
 - Roeder et al., Sticking the Landing: Simple, Lower-Variance Gradient Estimators for Variational Inference
 - Lakshminarayanan et al., Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
 - Henderson et al., Bayesian Policy Gradients via Alpha Divergence Dropout Inference
 - Vetrov et al., Structured Bayesian Pruning via Log-Normal Multiplicative Noise
 - Rezende et al., Neural Processes
 
-# Useful maths
+# Misc ML
 - Schon et al., Manipulating the Multivariate Gaussian Density
-
-# Waiting list
 - Tishby et al., A Unified Bellman Equation for Causal Information and Value in Markov Decision Processes
 - Botvinick et al., Learning to Share and Hide Intentions using Information Regularization
-- Walter et al., Gated Complex Recurrent Neural Networks
-- Bengio et al., Quaternion Recurrent Neural Networks
-- Bengio et al., Deep complex networks
+- Rusu et al., Progressive Neural Networks
+- Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
+- Bengio, Curriculum Learning
+- Graves et al., Automated Curriculum Learning for Neural Networks
+
