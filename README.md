@@ -209,20 +209,8 @@ Based on my own research interests, we have following main focuses
 - Rezende et al., Neural Processes
 
 # Neuroscience
-- Botvinick et al., The hippocampus as a predictive map
-- Botvinick, Hierarchical models of behavior and prefrontal function
-- Botvinick, Hierarchical reinforcement learning and decision making
-- Botvinick, A neural signature of hierarchical reinforcement learning
-- Botvinick, Hierarchically organized behavior and its neural foundations: a reinforcement learning perspective
-- Botvinick et al., Reinforcement learning, efficient coding, and the statistics of natural tasks
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
 - Tenenbaum et al., Building machines that learn and think like people
 - Doll, The ubiquity of model-based reinforcement learning
-- Morel et al., Linearization of excitatory synaptic integration at no extra cost
-- Lau et al., What is consciousness, and could machines have it?
-- Points et al., Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior
 - Moser et al., Place cells, grid cells, and the brain's spatial representation system
-- Frank et al., Within- and across-trial dynamics of human EEG reveal cooperative interplay between reinforcement learning and working memory
-- Behrens et al., What is a cognitive map? Organising knowledge for flexible behaviour
 - Niv et al., Reinforcement learning in the brain
-
