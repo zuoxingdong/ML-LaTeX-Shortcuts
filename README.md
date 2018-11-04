@@ -16,7 +16,6 @@ Based on my own research interests, we have following main focuses
 
 # Table of contents
 - [Textbook](#textbook)
-- [Derivative-Free Optimization & Evolution Strategies](#derivative-free-optimization--evolution-strategies)
 - [Policy Gradients](#policy-gradients)
 - [DQN](#dqn)
 - [Model-based RL & Planning](#model-based-rl--planning)
@@ -28,13 +27,6 @@ Based on my own research interests, we have following main focuses
 
 # Textbook
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
-
-# Derivative-Free Optimization & Evolution Strategies
-- Szita et al., Learning Teris using the Noisy Cross-Entropy Method
-- Hansen, The CMA Evolution Strategy: A Tutorial
-- Wierstra et al., Natural Evolution Strategies
-- Tucker et al., Guided evolutionary strategies: escaping the curse of dimensionality in random search
-- Blundell et al., PathNet: Evolution Channels Gradient Descent in Super Neural Networks
 
 # Policy Gradients
 - Schulman, Benchmarking deep reinforcement learning for continuous control
