@@ -1,7 +1,8 @@
 ![](./1.png)
+![](./2.png)
 
 - Sample efficiency
-  - Prior knownledge: demonstration
+  - Prior knownledge: policy parameters (e.g. demonstrations), policy structure (e.g. dynamic movement primitives)
   - Extract more information from observations:  learning a model
   - Sample reuse: experience 
 
@@ -22,3 +23,9 @@
   - Bayesian optimization (BO): actively choose next observation by using acquisition functions e.g. UCB, PI, EI
 
 - Directed explorations: 
+
+
+
+## References:
+- Policy Search in Continuous Action Domains: an Overview
+- A survey on policy search algorithms for learning robot controllers in a handful of trials
