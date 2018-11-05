@@ -30,7 +30,6 @@ Based on my own research interests, we have following main focuses
 
 # Policy Gradients
 - Schulman, Benchmarking deep reinforcement learning for continuous control
-- Precup et al., DRL that Matters
 - Silver et al., A2C
 - Mnih et al., IMPALA
 - Silver et al., DPG
