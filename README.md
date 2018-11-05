@@ -140,6 +140,9 @@ Based on my own research interests, we have following main focuses
 - Moerland et al., The Potential of the Return Distribution for Exploration in RL
 - Pineau et al., Randomized Value Functions via Multiplicative Normalizing Flows
 - Abbeel et al., Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models
+- Riedmiller et al., Learning by Playing-Solving Sparse Reward Tasks from Scratch
+- Riedmiller et al., Maximum a Posteriori Policy Optimisation
+- Riedmiller et al., Graph networks as learnable physics engines for inference and control
 
 # Optimization & Variational Inference
 - Bottou, Stochastic Gradient Descent Tricks
