@@ -156,6 +156,7 @@ Based on my own research interests, we have following main focuses
 - Martens et al., New insights and perspectives on the natural gradient method
 
 # Misc ML
+- [Normalization tricks](/normalization_tricks/normalization_tricks.pdf)
 - Schon et al., Manipulating the Multivariate Gaussian Density
 - Dumoulin, A guide to convolution arithmetic for deep learning
 - Kingma et al., Auto-Encoding Variational Bayes
