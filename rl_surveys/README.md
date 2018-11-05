@@ -1,7 +1,4 @@
-
-# Policy Search in Continuous Action Domains: an Overview
-
-figure
+![](./.png)
 
 - Sample efficiency
   - Prior knownledge: demonstration
