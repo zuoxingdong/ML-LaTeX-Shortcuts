@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Xingdong Zuo  %
 %                       %
-% Version: 2018-08-27   %
+% Version: 2018-11-05   %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -306,23 +306,29 @@ sorting=nty         % nty: name, title, year
 \newcommand{\Exp}[2]{\mathbb{E}_{{#2}} \left[  {#1} \right]}
 % conditional expectation: auto-size of verticle line by \middle
 \newcommand{\CondExp}[3]{\mathbb{E}_{{#3}} \left[  {#1} \middle| {#2} \right]}
+% conditional probability
+\newcommand{\condp}[3]{p_{{#3}}\left( {#1} \middle| {#2} \right)}
 % KL divergence
-\newcommand{\KL}[2]{D_{\mathrm{KL}} \left( {#1} \| {#2} \right)}
+\newcommand{\KL}[2]{D_{\mathrm{KL}} \left( {#1} \middle\| {#2} \right)}
 % max KL divergence
-\newcommand{\KLmax}[2]{D_{\mathrm{KL}}^{\max} \left( {#1} \| {#2} \right)}
+\newcommand{\KLmax}[2]{D_{\mathrm{KL}}^{\max} \left( {#1} \middle\| {#2} \right)}
 % Minimization, maximization, subject to
 \newcommand{\minimize}[2]{ \underset{ {#2} }{\text{minimize }} {#1} }
 \newcommand{\maximize}[2]{ \underset{ {#2} }{\text{maximize }} {#1} }
 \newcommand{\subto}[1]{ \text{subject to } {#1} }
 % Fraction of derivatives and partial derivatives
-\newcommand{\ddfrac}[2]{\frac{ \mathrm{d}{#1} }{ \mathrm{d}{#2} }}
-\newcommand{\ddfracc}[1]{\frac{ \mathrm{d} }{ \mathrm{d}{#1} }}
-\newcommand{\pfrac}[2]{\frac{ \partial{#1} }{ \partial{#2} }}
-\newcommand{\pfracc}[1]{\frac{\partial}{ \partial{#1} }}
+\newcommand{\ddfrac}[2]{\frac{ \dd{#1} }{ \dd{#2} }}
+\newcommand{\ddfracc}[1]{\frac{ \dd }{ \dd{#1} }}
+\newcommand{\pfrac}[2]{\frac{ \pdd{#1} }{ \pdd{#2} }}
+\newcommand{\pfracc}[1]{\frac{\pdd}{ \pdd{#1} }}
+\newcommand{\ddnfrac}[3]{\frac{ \dd^{{#3}}{#1} }{ \dd{#2}^{{#3}} }}
+\newcommand{\ddnfracc}[2]{\frac{ \dd^{{#2}} }{ \dd{#1}^{{#2}} }}
+\newcommand{\pnfrac}[3]{\frac{ \pdd^{{#3}}{#1} }{ \pdd{#2}^{{#3}} }}
+\newcommand{\pnfracc}[2]{\frac{\pdd^{{#2}}}{ \pdd{#1}^{{#2}} }}
 % Average of summation
 \newcommand{\avgsum}[3]{\frac{1}{ {#3} } \sum_{ {#1}={#2} }^{ {#3} }}
 % Indicator function
-\newcommand{\indicator}[1]{\mathbbm{1} \left( {#1} \right) }
+\newcommand{\ind}[1]{\mathbbm{1} \left( {#1} \right) }
 % Quadratic form
 \newcommand{\quaform}[2]{ {#1}^T {#2} {#1}}
 \newcommand{\quaforms}[2]{\left( {#1} \right)^T {#2} \left( {#1} \right)}
