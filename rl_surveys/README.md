@@ -1,4 +1,4 @@
-![](./.png)
+![](./1.png)
 
 - Sample efficiency
   - Prior knownledge: demonstration
