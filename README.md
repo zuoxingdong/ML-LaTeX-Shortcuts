@@ -108,6 +108,7 @@ Based on my own research interests, we have following main focuses
 # Misc RL
 - [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 - [Dopamine: A Research Framework for Deep Reinforcement Learning](/dopamine)
+- Salimans et al., Evolution Strategies as a Scalable Alternative to Reinforcement Learning
 - Silver et al., Memory-based control with recurrent neural networks
 - Rusu et al., Policy Distillation
 - Schulman et al., Teacher-Student Curriculum Learning
