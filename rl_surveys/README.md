@@ -20,8 +20,8 @@ figure
     - Estimation of Distribution Algorithms (EDAs): specific ES by maintaining a covariance matrix e.g. CEM, CMA-ES
 
 - Model-based policy search: learning a transition dynamics model over the observed trajectories
-    - Deterministic model: suffer from model bias e.g. neural networks
-    - Probabilistic model: distribution of all plausible models e.g. Gaussian processes, Bayesian neural networks
-    - Bayesian optimization (BO): actively choose next observation by using acquisition functions e.g. UCB, PI, EI
+  - Deterministic model: suffer from model bias e.g. neural networks
+  - Probabilistic model: distribution of all plausible models e.g. Gaussian processes, Bayesian neural networks
+  - Bayesian optimization (BO): actively choose next observation by using acquisition functions e.g. UCB, PI, EI
 
 - Directed explorations: 
