@@ -35,6 +35,7 @@ Based on my own research interests, we have following main focuses
 - Kakade, Approximately Optimal Approximate Reinforcement Learning
 - Kakade, A Natural Policy Gradient
 - Schulman et al., TRPO/PPO
+- Ba et al., ACKTR
 - Schulman, GAE
 - Wang et al., ACER
 - Gu et al., Q-Prop
@@ -43,9 +44,7 @@ Based on my own research interests, we have following main focuses
 - Gu et al., Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning
 
 # DQN
-- Silver et al., Human-level control through deep reinforcement learning
-- Silver et al. Double Q-Learning
-- Silver et al. Dueling network architectures for deep reinforcement learning
+- Silver et al., DQN/Double DQN/Dueling DQN
 - Silver et al. Prioritized experience replay
 - Bellemare et al., A Distributional Perspective on Reinforcement Learning
 - Silver et al., Rainbow: Combining Improvements in DRL
