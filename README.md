@@ -31,16 +31,14 @@ Based on my own research interests, we have following main focuses
 # Policy Gradients
 - Silver et al., A2C
 - Mnih et al., IMPALA
-- Silver et al., DPG
-- Silver et al., DDPG
+- Silver et al., DPG/DDPG
 - Kakade, Approximately Optimal Approximate Reinforcement Learning
 - Kakade, A Natural Policy Gradient
-- Schulman et al., TRPO
-- Schulman et al., PPO
-- Schulman, High-dimensional continuous control using generalized advantage estimation
-- Wang et al., Sample Efficient Actor-Critic with Experience Reply
+- Schulman et al., TRPO/PPO
+- Schulman, GAE
+- Wang et al., ACER
 - Gu et al., Q-Prop
-- Gruslys et al., The Reactor
+- Gruslys et al., Reactor
 - Liu et al., Stein Variational Policy Gradient
 - Gu et al., Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning
 
@@ -164,7 +162,6 @@ Based on my own research interests, we have following main focuses
 - Kingma et al., Auto-Encoding Variational Bayes
 - Rusu et al., Progressive Neural Networks
 - Kirkpatrick et al., Overcoming catastrophic forgetting in neural networks
-- Bengio, Curriculum Learning
 - Graves et al., Automated Curriculum Learning for Neural Networks
 - Blundell et al., Weight Uncertainty in Neural Networks
 - Blundell et al., Bayesian Recurrent Neural Networks
