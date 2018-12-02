@@ -177,3 +177,9 @@ Based on my own research interests, we have following main focuses
 - Doll, The ubiquity of model-based reinforcement learning
 - Moser et al., Place cells, grid cells, and the brain's spatial representation system
 - Niv et al., Reinforcement learning in the brain
+
+# Waiting list
+- Roberts et al., Causality in Physics and Effective Theories of Agency
+- Levine et al., Causal Confusion in Imitation Learning
+- Heess et al., Woulda, coulda, shoulda: Counterfactually-guided policy search
+- Ma et al., Marginalized Off-Policy Evaluation for Reinforcement Learning
