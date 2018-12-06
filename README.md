@@ -187,3 +187,4 @@ Based on my own research interests, we have following main focuses
 - Burda et al., Exploration by Random Network Distillation
 - Gregor et al., Temporal Difference Variational Auto-Encoder
 - Levine et al., Near-Optimal Representation Learning for Hierarchical Reinforcement Learning
+- Pearce et al., Bayesian Neural Network Ensembles
