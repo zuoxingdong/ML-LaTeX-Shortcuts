@@ -183,3 +183,7 @@ Based on my own research interests, we have following main focuses
 - Levine et al., Causal Confusion in Imitation Learning
 - Heess et al., Woulda, coulda, shoulda: Counterfactually-guided policy search
 - Ma et al., Marginalized Off-Policy Evaluation for Reinforcement Learning
+- Tian et al., Algorithmic Framework for Model-based Deep Reinforcement Learning with Theoretical Guarantees
+- Burda et al., Exploration by Random Network Distillation
+- Gregor et al., Temporal Difference Variational Auto-Encoder
+- Levine et al., Near-Optimal Representation Learning for Hierarchical Reinforcement Learning
