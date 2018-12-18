@@ -101,6 +101,7 @@ Based on my own research interests, we have following main focuses
 
 # Misc RL
 - [Dopamine: A Research Framework for Deep Reinforcement Learning](/dopamine)
+- [Nuts and Bolts in Deep Reinforcement Learning](/nuts-and-bolts-in-drl)
 - Salimans et al., Evolution Strategies as a Scalable Alternative to Reinforcement Learning
 - Silver et al., Memory-based control with recurrent neural networks
 - Rusu et al., Policy Distillation
