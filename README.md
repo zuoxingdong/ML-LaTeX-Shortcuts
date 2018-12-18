@@ -188,3 +188,4 @@ Based on my own research interests, we have following main focuses
 - Gregor et al., Temporal Difference Variational Auto-Encoder
 - Levine et al., Near-Optimal Representation Learning for Hierarchical Reinforcement Learning
 - Pearce et al., Bayesian Neural Network Ensembles
+- Parmas et al., Total stochastic gradient algorithms and applications in reinforcement learning
