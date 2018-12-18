@@ -59,7 +59,7 @@ Based on my own research interests, we have following main focuses
 - Salakhutdinov et al., LSTM Iteration Networks: An Exploration of Differentialble Path Finding
 - Abbeel et al., Universal Planning Networks
 - Wierstra et al., Learning Dynamic State Abstractions for Model-Based Reinforcement Learning
-- Gal et al., Improving PILCO with Bayesian Neural Network Dynamics Models
+- [PILCO](/pilco)
 - Meger et al., Synthesizing Neural Network Controllers with Probabilistic Model-based Reinforcement Learning
 - Levine et al., Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models
 - Wierstra et al., Learning model-based planning from scratch
@@ -144,6 +144,7 @@ Based on my own research interests, we have following main focuses
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
 - Barber et al., [Variational Optimization](/variational_optimization)
 - Grathwohl et al., Backpropagation through the Void: Optimizing control variates for black-box gradient estimation
+- [Variational Inference](/variational_inference)
 - Blei et al., Variational Inference: A Review for Statisticians
 - Grosse et al., Noisy Natural Gradient as Variational Inference
 - Whiteson et al., DiCE: The Infinitely Differentiable Monte-Carlo Estimator
