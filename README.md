@@ -29,7 +29,6 @@ Based on my own research interests, we have following main focuses
 - [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
 
 # Policy Gradients
-- Silver et al., A2C
 - Mnih et al., IMPALA
 - Silver et al., DPG/DDPG
 - Kakade, Approximately Optimal Approximate Reinforcement Learning
