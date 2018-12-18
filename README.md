@@ -26,7 +26,7 @@ Based on my own research interests, we have following main focuses
 - [Neuroscience](#neuroscience)
 
 # Textbook
-- [Sutton, Introduction to Reinforcement Learning, 2nd edition](/Sutton%20-%20Introduction%20to%20RL)
+- [Sutton, Introduction to Reinforcement Learning, 2nd edition](/sutton_rl_book)
 
 # Policy Gradients
 - Mnih et al., IMPALA
@@ -100,7 +100,6 @@ Based on my own research interests, we have following main focuses
 - Levine, Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review
 
 # Misc RL
-- [Schmidhuber, PowerPlay: Training an increasingly general problem solver by continually searching for the simplest still unsolvable problem](/PowerPlay)
 - [Dopamine: A Research Framework for Deep Reinforcement Learning](/dopamine)
 - Salimans et al., Evolution Strategies as a Scalable Alternative to Reinforcement Learning
 - Silver et al., Memory-based control with recurrent neural networks
@@ -142,7 +141,7 @@ Based on my own research interests, we have following main focuses
 - Bottou, Stochastic Gradient Descent Tricks
 - Bottou et al., Optimization Methods for Large-Scale Machine Learning
 - Martens et al., Optimizing Neural Networks with Kronecker-factored Approximate Curvature
-- Barber et al., [Variational Optimization](/Variational_Optimization)
+- Barber et al., [Variational Optimization](/variational_optimization)
 - Grathwohl et al., Backpropagation through the Void: Optimizing control variates for black-box gradient estimation
 - Blei et al., Variational Inference: A Review for Statisticians
 - Grosse et al., Noisy Natural Gradient as Variational Inference
