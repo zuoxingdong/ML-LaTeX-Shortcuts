@@ -156,7 +156,6 @@ Based on my own research interests, we have following main focuses
 # Misc ML
 - [Normalization tricks](/normalization_tricks/normalization_tricks.pdf)
   - Batch norm, layer norm
-- Schon et al., Manipulating the Multivariate Gaussian Density
 - Dumoulin, A guide to convolution arithmetic for deep learning
 - Kingma et al., Auto-Encoding Variational Bayes
 - Rusu et al., Progressive Neural Networks
@@ -170,6 +169,10 @@ Based on my own research interests, we have following main focuses
 - Lakshminarayanan et al., Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
 - Vetrov et al., Structured Bayesian Pruning via Log-Normal Multiplicative Noise
 - Rezende et al., Neural Processes
+
+# Misc Math
+- Schon et al., Manipulating the Multivariate Gaussian Density
+- [The Matrix Cookbook](/matrix-cookbook/matrix-cookbook.pdf)
 
 # Neuroscience
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
