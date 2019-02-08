@@ -172,7 +172,7 @@ Based on my own research interests, we have following main focuses
 
 # Misc Math
 - Schon et al., Manipulating the Multivariate Gaussian Density
-- [The Matrix Cookbook](/matrix-cookbook/matrix-cookbook.pdf)
+- [The Matrix Cookbook](/matrix-cookbook/matrix_cookbook.pdf)
 
 # Neuroscience
 - Hassabis et al., Neuroscience-Inspired Artificial Intelligence
