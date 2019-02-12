@@ -194,3 +194,4 @@ Based on my own research interests, we have following main focuses
 - Parmas et al., Total stochastic gradient algorithms and applications in reinforcement learning
 - Pearce et al., Uncertainty in Neural Networks: Bayesian Ensembling
 - Sutton et al., Online Off-policy Prediction
+- Owen, Monte Carlo theory, methods and examples
