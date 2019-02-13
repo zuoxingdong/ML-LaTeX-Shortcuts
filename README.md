@@ -195,3 +195,5 @@ Based on my own research interests, we have following main focuses
 - Pearce et al., Uncertainty in Neural Networks: Bayesian Ensembling
 - Sutton et al., Online Off-policy Prediction
 - Owen, Monte Carlo theory, methods and examples
+- Auer et al., Near-optimal Regret Bounds for Reinforcement Learning
+- Roy et al., Learning to Optimize via Posterior Sampling
