@@ -86,6 +86,7 @@ Based on my own research interests, we have following main focuses
 - Scholkopft et al., Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models
 - Singh et al., Improving model-based RL with Adaptive Rollout using Uncertainty Estimation
 - Abbeel et al., Model-Based Reinforcement Learning via Meta-Policy Optimization
+- Hafner et al., Learning Latent Dynamics for Planning from Pixels
 
 # RL Theory
 - Osband et al., A Tutorial on Thompson Sampling (Journal version, 2018)
