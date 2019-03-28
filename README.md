@@ -199,3 +199,5 @@ Based on my own research interests, we have following main focuses
 - Auer et al., Near-optimal Regret Bounds for Reinforcement Learning
 - Roy et al., Learning to Optimize via Posterior Sampling
 - Hamrick et al., Analogues of mental simulation and imagination in deep learning
+- Campos et al., Importance Weighted Evolution Strategies
+- Sutton et al., Weighted importance sampling for off-policy learning with linear function approximation
