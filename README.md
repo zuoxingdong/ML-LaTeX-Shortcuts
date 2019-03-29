@@ -201,3 +201,4 @@ Based on my own research interests, we have following main focuses
 - Hamrick et al., Analogues of mental simulation and imagination in deep learning
 - Campos et al., Importance Weighted Evolution Strategies
 - Sutton et al., Weighted importance sampling for off-policy learning with linear function approximation
+- Osband et al., The Uncertainty Bellman Equation and Exploration
