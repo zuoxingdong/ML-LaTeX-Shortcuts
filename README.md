@@ -202,3 +202,6 @@ Based on my own research interests, we have following main focuses
 - Campos et al., Importance Weighted Evolution Strategies
 - Sutton et al., Weighted importance sampling for off-policy learning with linear function approximation
 - Osband et al., The Uncertainty Bellman Equation and Exploration
+- Botvinick et al., Causal Reasoning from Meta-reinforcement Learning
+- Botvinick et al., InfoBot: Transfer and Exploration via the Information Bottleneck
+- Neftci et al., Reinforcement learning in artificial and biological systems
