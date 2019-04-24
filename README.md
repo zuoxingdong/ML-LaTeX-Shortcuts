@@ -43,7 +43,7 @@ Based on my own research interests, we have following main focuses
 - Gu et al., Interpolated Policy Gradient: Merging On-Policy and Off-Policy Gradient Estimation for Deep Reinforcement Learning
 
 # DQN
-- Silver et al., DQN/Double DQN/Dueling DQN
+- Silver et al., DQN/Double Q-learning/Double DQN/Dueling DQN
 - Silver et al. Prioritized experience replay
 - Bellemare et al., A Distributional Perspective on Reinforcement Learning
 - Silver et al., Rainbow: Combining Improvements in DRL
