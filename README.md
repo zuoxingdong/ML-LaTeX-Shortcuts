@@ -211,3 +211,4 @@ Based on my own research interests, we have following main focuses
 - Teh et al., Meta-Learning surrogate models for sequential
 - Levine et al., Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables
 - Lillicrap et al., Backpropagation through time and the brain
+- Hafner et al., Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion
