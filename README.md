@@ -205,3 +205,4 @@ Based on my own research interests, we have following main focuses
 - Botvinick et al., Causal Reasoning from Meta-reinforcement Learning
 - Botvinick et al., InfoBot: Transfer and Exploration via the Information Bottleneck
 - Neftci et al., Reinforcement learning in artificial and biological systems
+- Sutton et al., Off-Policy Actor-Critic
