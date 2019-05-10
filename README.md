@@ -206,3 +206,4 @@ Based on my own research interests, we have following main focuses
 - Botvinick et al., InfoBot: Transfer and Exploration via the Information Bottleneck
 - Neftci et al., Reinforcement learning in artificial and biological systems
 - Sutton et al., Off-Policy Actor-Critic
+- Wang et al., Max-value Entropy Search for Efficient Bayesian Optimization
