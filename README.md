@@ -207,3 +207,7 @@ Based on my own research interests, we have following main focuses
 - Neftci et al., Reinforcement learning in artificial and biological systems
 - Sutton et al., Off-Policy Actor-Critic
 - Wang et al., Max-value Entropy Search for Efficient Bayesian Optimization
+- Fujimoto et al., Off-Policy Deep Reinforcement Learning without Exploration
+- Teh et al., Meta-Learning surrogate models for sequential
+- Levine et al., Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables
+- Lillicrap et al., Backpropagation through time and the brain
