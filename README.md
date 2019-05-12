@@ -212,3 +212,4 @@ Based on my own research interests, we have following main focuses
 - Levine et al., Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables
 - Lillicrap et al., Backpropagation through time and the brain
 - Hafner et al., Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion
+- Heess et al., Information asymmetry in KL-regularized RL
