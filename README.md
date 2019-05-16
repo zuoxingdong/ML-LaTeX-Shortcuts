@@ -215,3 +215,4 @@ Based on my own research interests, we have following main focuses
 - Heess et al., Information asymmetry in KL-regularized RL
 - Lee et al., Structural Causal Bandits: Where to Intervene?
 - Scholkopf et al., Deconfounding Reinforcement Learning in Observational Settings
+- Mannor et al., Trust Region Value Optimization using Kalman Filtering
