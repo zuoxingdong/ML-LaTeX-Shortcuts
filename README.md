@@ -213,3 +213,4 @@ Based on my own research interests, we have following main focuses
 - Lillicrap et al., Backpropagation through time and the brain
 - Hafner et al., Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion
 - Heess et al., Information asymmetry in KL-regularized RL
+- Lee et al., Structural Causal Bandits: Where to Intervene?
