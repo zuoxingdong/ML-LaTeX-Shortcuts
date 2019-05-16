@@ -33,6 +33,7 @@ Based on my own research interests, we have following main focuses
 - Silver et al., DPG/DDPG
 - Kakade, Approximately Optimal Approximate Reinforcement Learning
 - Kakade, A Natural Policy Gradient
+- Peter, Natural Actor-Critic
 - Schulman et al., TRPO/PPO
 - Ba et al., ACKTR
 - Schulman, GAE
@@ -216,3 +217,10 @@ Based on my own research interests, we have following main focuses
 - Lee et al., Structural Causal Bandits: Where to Intervene?
 - Scholkopf et al., Deconfounding Reinforcement Learning in Observational Settings
 - Mannor et al., Trust Region Value Optimization using Kalman Filtering
+- Todorov et al., Synthesis and Stabilization of Complex Behaviors through Online Trajectory Optimization
+- Bellemare et al., The Value Function Polytope in Reinforcement Learning
+- Ng et al., A Sparse Sampling Algorithm for Near-Optimal Planning in Large Markov Decision Processes
+- Coulom et al., Efficient Selectivity and Backup Operators in Monte-Carlo Tree Search
+- Szepesvari et al., Bandit based Monte-Carlo Planning
+- Munos et al., Continuous-action planning for discounted infinite-horizon nonlinear optimal control with Lipschitz values
+- PI^2/PI^2-CMA/iLQG/iLQG+
